@@ -32,3 +32,30 @@ window.onclick = function(event) {
     modal.style.display = 'none';
   }
 }
+
+const submenuToggle = document.querySelector('.submenu-toggle');
+const hasSubmenu = document.querySelector('.has-submenu');
+const backButton = document.querySelector('.back-btn');
+
+submenuToggle.addEventListener('click', function(event) {
+  event.stopPropagation();
+  hasSubmenu.classList.toggle('open');
+});
+
+if (backButton) {
+  backButton.addEventListener('click', function(event) {
+    event.stopPropagation(); 
+    hasSubmenu.classList.remove('open'); 
+  });
+}
+
+const checkbox = document.getElementById('menu-toggle');
+const menuIcon = document.querySelector('.hamburger');
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    menuIcon.classList.add('active');
+  } else {
+    menuIcon.classList.remove('active');
+  }
+});
