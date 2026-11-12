@@ -2500,6 +2500,36 @@ footer {
     display: none;
 }
 
+.text-bg-glav {
+    /* Помощь сертифицированных специалистов */
+
+position: absolute;
+width: 550px;
+height: 34px;
+left: 315px;
+top: 298px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+color: #FFFFFF;
+
+}
+
+.text-consult-mob {
+    display: none;
+}
+
+.text-file-mob {
+    display: none;
+}
+
+.text-gears-mob {
+    display: none;
+}
+
 @media screen and (max-width: 320px) {
     header {
     /* Rectangle 499 */
@@ -2511,6 +2541,14 @@ left: 0px;
 top: 0px;
 background: #FFFFFF;
 
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .viber {
+        display: none;
     }
 
     .tel3 {
@@ -2533,7 +2571,7 @@ top: 20px;
   display: inline-block;
   cursor: pointer;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .hamburger span {
@@ -2557,6 +2595,7 @@ transition: all 0.4s ease-in-out
 
 .menu {
   display: none;
+  margin-top: -5px;
 }
 
 @supports selector(header:has(#menu-toggle:checked)) {
@@ -2613,6 +2652,7 @@ color: #2568A8;
   height: 507px;
   width: 320px;
   background-color: #ffffff;
+  z-index: 999;
 }
 
 .submenu-toggle {
@@ -2721,6 +2761,25 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 /* identical to box height, or 114% */
+/* Style */
+color: #2D2B2D;
+
+}
+
+.contacts2 {
+    /* КОНТАКТЫ */
+
+position: absolute;
+width: 67px;
+height: 18px;
+right: 233px;
+top: 152px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
 /* Style */
 color: #2D2B2D;
 
@@ -2858,7 +2917,7 @@ display: none;
 
     .dropdown-toggle {
         /* Услуги */
-
+        display: none;
         position: absolute;
         width: 51px;
         height: 22px;
@@ -2876,109 +2935,15 @@ display: none;
         transition: all 0.3s ease;
     }
 
-    .dropdown-toggle:hover {
-        color: #2568A8;
-    }
-
     .dropdown-menu {
         display: none;
-        position: absolute;
-        border: 1px solid #ccc;
-        padding: 15px;
-        min-width: 200px;
-        z-index: 10;
-        width: 1290px;
-        height: 316px;
-        left: 315px;
-        top: 60px;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 10px rgba(37, 106, 172, 0.15);
-
-    }
-
-    .dropdown-menu.show {
-        display: block;
-        z-index: 10;
-    }
-
-    .submenu {
-        position: relative;
-    }
-
-    .submenu-title {
-        display: block;
-        padding: 10px 16px;
-        cursor: pointer;
-        white-space: nowrap;
-        transition: all 0.3s ease;
-        font-family: 'Ubuntu';
-        font-size: 18px;
-    }
-
-    .submenu-title:hover {
-        color: #2568A8;
-    }
-
-    .submenu-content {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 400px;
-        min-width: 240px;
-        padding: 12px 16px;
-        z-index: 1001;
-        text-decoration: none;
-        font-family: 'Ubuntu';
-        font-size: 16px;
-    }
-
-    .submenu-content a {
-        text-decoration: none;
-        margin: 20px;
-    }
-
-    .submenu:hover .submenu-content {
-        display: block;
-    }
-
-    .modal {
-        display: none;
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.8);
-        align-items: center;
-        justify-content: center;
-        z-index: 1000;
-        font-family: 'Ubuntu';
-    }
-
-    .modal-content {
-        width: 270px;
-        height: 375px;
-        left: 750px;
-        top: 50px;
-        background-color: #FFFFFF;
-        position: absolute;
-        border-radius: 2px;
-    }
-
-    .close {
-        /* close (1) 1 */
-
-        position: absolute;
-        width: 16px;
-        height: 16px;
-        left: 240px;
-        top: 10px;
-        font-size: 28px;
-        cursor: pointer;
     }
 
     .ost-zayav {
         /* Оставить заявку */
 
         /* Оставить заявку */
-
+        display: none;
         position: absolute;
         width: 220px;
         height: 28px;
@@ -2996,151 +2961,78 @@ display: none;
 
     }
 
-    .name {
-        /* Rectangle */
-
-        box-sizing: border-box;
-
-        position: absolute;
-        width: 220px;
-        height: 60px;
-        left: 20px;
-        top: 90px;
-        background: #FFFFFF;
-        opacity: 0.6;
-        /* Gray 1 */
-        border: 1px solid #A4A4A4;
-        border-radius: 2px;
-
-    }
-
-    input {
-        font-family: 'Ubuntu';
-        border-radius: 2px #A4A4A4;
-    }
-
-    .tel {
-        /* Rectangle */
-
-        box-sizing: border-box;
-
-        position: absolute;
-        width: 220px;
-        height: 60px;
-        left: 20px;
-        top: 160px;
-        background: #FFFFFF;
-        opacity: 0.6;
-        /* Gray 1 */
-        border: 1px solid #A4A4A4;
-        border-radius: 2px;
-
-    }
-
-    .btn-form {
-        /* Rectangle */
-
-        position: absolute;
-        top: 230px;
-        left: 20px;
-        width: 220px;
-        height: 60px;
-        /* #3E8BC5 */
-        background: #3E8BC5;
-        border-radius: 2px;
-        border: none;
-        cursor: pointer;
-
-    }
-
-    .btn-form div {
-        position: absolute;
-        top: 20px;
-        left: 70px;
-        font-family: 'Ubuntu';
-        color: #FFFFFF;
-        font-weight: bold;
-    }
-
-    .obr-dann {
-        /* Нажимая кнопку, вы с */
-
-        position: absolute;
-        width: 220px;
-        height: 30px;
-        left: 20px;
-        top: 310px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 15px;
-        /* or 115% */
-        text-align: center;
-        /* Gray 1 */
-        color: #A4A4A4;
-
-    }
-
     .bg-glav {
-        /* Rectangle 460 */
+/* Rectangle 511 */
 
-        position: absolute;
-        width: 975px;
-        height: 583px;
-        left: 0px;
-        top: 75px;
-        /* #3E8BC5 */
-        background: #3E8BC5;
+position: absolute;
+width: 321px;
+height: 520px;
+left: -1px;
+top: 50px;
+
+/* #3E8BC5 */
+background: #3E8BC5;
 
     }
 
     .zag-bg-glav {
-        /* Разработка и актуализация  проектов в сфере ЖКХ */
+/* Разработка и актуализация  проектов в сфере ЖКХ */
 
-        position: absolute;
-        width: 548px;
-        height: 96px;
-        left: 315px;
-        top: 160px;
+position: absolute;
+width: 290px;
+height: 48px;
+left: 20px;
+top: 70px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+color: #FFFFFF;
 
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 48px;
-        /* or 126% */
-        color: #FFFFFF;
+    }
+
+    .text-bg-glav {
+        /* Помощь сертифицированных  специалистов */
+
+position: absolute;
+width: 211px;
+height: 32px;
+left: 20px;
+top: 133px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+color: #FFFFFF;
 
     }
 
     .bg-img {
-        /* Frame 1131 */
+/* image 124 */
 
-        position: absolute;
-        width: 945px;
-        height: 583px;
-        left: 975px;
-        top: 75px;
-
+position: absolute;
+width: 320px;
+height: 197px;
+left: 0px;
+top: 318px;
     }
 
     .ps-usl {
-        /* Кнопка */
+/* Button */
 
-        position: absolute;
-        width: 223px;
-        height: 60px;
-        left: 315px;
-        top: 411px;
-        background-color: #FFFFFF;
-        cursor: pointer;
-        transition: all 0.5s ease-in;
-    }
+/* Auto layout */
+position: absolute;
+width: 184px;
+height: 48px;
+left: 19px;
+top: 190px;
+background: #FFFFFF;
+border-radius: 2px;
 
-    .ps-usl:hover {
-        background: #2568A8;
-        color: #FFFFFF;
     }
 
     .ps-usl div {
@@ -3149,8 +3041,8 @@ display: none;
         position: absolute;
         width: 153px;
         height: 22px;
-        left: 40px;
-        top: 20px;
+        left: 20px;
+        top: 13px;
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
@@ -3161,120 +3053,92 @@ display: none;
 
     }
 
-    .ps-usl:hover div {
-        color: #FFFFFF;
-    }
-
     .arrow-line {
         display: inline-block;
         position: absolute;
         width: 40px;
         /* длина хвоста */
         height: 2px;
-        background: rgb(255, 255, 255, 0.4);
+        background: rgb(255, 255, 255);
         /* цвет хвоста */
-        top: 510px;
-        left: 400px;
-        transition: all 0.3s ease-in;
+        top: 490px;
+        left: 120px;
         cursor: pointer;
-    }
-
-    .arrow-line:hover {
-        background: #FFFFFF;
+        /* right-arrow 9 */
     }
 
     .arrow-line::after {
         content: "";
         position: absolute;
         right: -8px;
-        /* выступ головы за хвост */
         top: 50%;
         transform: translateY(-50%);
         width: 0;
         height: 0;
         border-top: 6px solid transparent;
         border-bottom: 6px solid transparent;
-        border-left: 10px solid rgb(255, 255, 255, 0.4);
-        /* голова */
-        transition: border-left-color 0.3s;
+        border-left: 10px solid rgb(255, 255, 255);
         cursor: pointer;
-    }
-
-    .arrow-line:hover::after {
-        border-left-color: #FFFFFF;
     }
 
     .arrow-line2 {
         display: inline-block;
         position: absolute;
         width: 40px;
-        /* длина хвоста */
         height: 2px;
-        background: rgb(255, 255, 255, 0.4);
-        /* цвет хвоста */
-        top: 510px;
-        left: 323px;
+        background: rgba(255, 255, 255);
+        top: 490px;
+        left: 40px;
         cursor: pointer;
-        transition: all 0.3s ease-in;
     }
 
     .arrow-line2::after {
         content: "";
         position: absolute;
         left: -8px;
-        /* выступ головы за хвост */
         top: 50%;
         transform: translateY(-50%);
         width: 0;
         height: 0;
         border-top: 6px solid transparent;
         border-bottom: 6px solid transparent;
-        border-right: 10px solid rgb(255, 255, 255, 0.4);
-        /* голова */
+        border-right: 10px solid rgb(255, 255, 255);
         cursor: pointer;
-        transition: border-right-color 0.3s;
-    }
-
-    .arrow-line2:hover {
-        background: #FFFFFF;
-    }
-
-    .arrow-line2:hover::after {
-        border-right-color: #FFFFFF;
     }
 
     .bg2 {
-        /* Rectangle 49 */
-        position: absolute;
-        width: 100%;
-        height: 627px;
-        right: 0px;
-        top: 658px;
-        background: #F0F7FC;
+/* Rectangle 49 */
+position: absolute;
+width: 320px;
+height: 664px;
+left: 0px;
+top: 570px;
+background: #F0F7FC;
 
     }
 
     .advan {
-        /* Преимущества */
+/* Приоритеты компании */
 
-        position: absolute;
-        width: 713px;
-        height: 127px;
-        left: 325px;
-        top: 40px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 95px;
-        line-height: 127px;
-        /* identical to box height, or 134% */
-        color: #DEEDF7;
+position: absolute;
+width: 205px;
+height: 26px;
+left: 30px;
+top: 38px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .comand {
         /* Наша команда */
-
+        display: none;
         position: absolute;
         width: 275px;
         height: 48px;
@@ -3292,43 +3156,44 @@ display: none;
     }
 
     .list-bg2 {
-        /* Регулярно взаимодействует с клиентом на всех этапах –  Ваш персональный менеджер всегда готов ответить на Ваши вопросы  и помочь в выборе необходимого проекта Строго соблюдает сроки проектирования Разрабатывает качественную проектную документацию, соответствующую всем требованиям законодательства РФ Гарантирует актуальность работ, так как наши специалисты постоянно отслеживают нормативную базу Работает по всей России Заботится о том, чтобы наши клиенты были довольны результатом работы */
+/* Регулярное взаимодействие с клиентом  на всех этапах – Ваш персональный менеджер всегда готов ответить на Ваши вопросы и помочь Строгое соблюдение сроков проектирования Разработка качественной проектной документации, соответствующей всемтребованиям законодательства РФ Постоянное отслеживание нормативной базы, чем гарантируем актуальность наших работ Беремся за работу в разных регионах страны Заботимся о том, чтобы наши клиенты были довольны результатом нашей работы */
 
-        position: absolute;
-        width: 612px;
-        height: 339px;
-        left: 315px;
-        top: 170px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
-        /* or 133% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 270px;
+height: 356px;
+left: -5px;
+top: 230px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .list-bg2 li {
-        padding: 10px;
+        padding: 8px;
     }
 
     .seven {
-        /* 7лет */
+/* 7лет */
 
-        position: absolute;
-        width: 144px;
-        height: 100px;
-        right: 624px;
-        top: 120px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 100px;
-        line-height: 100px;
-        /* identical to box height, or 100% */
-        color: #2568A8;
+position: absolute;
+width: 58px;
+height: 48px;
+right: 241px;
+top: 84px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
@@ -3336,12 +3201,12 @@ display: none;
         position: absolute;
         width: 144px;
         height: 100px;
-        left: 60px;
-        top: 45px;
+        left: 25px;
+        top: 7px;
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 20px;
         line-height: 50px;
         /* identical to box height, or 100% */
         color: #2568A8;
@@ -3349,343 +3214,314 @@ display: none;
     }
 
     .succes-work {
-        /* успешной работы  по всей России */
+/* успешной работы  по всей России */
 
-        position: absolute;
-        width: 169px;
-        height: 52px;
-        right: 413px;
-        top: 165px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 19px;
-        line-height: 26px;
-        /* or 137% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 113px;
+height: 32px;
+right: 106px;
+top: 92px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .zero {
-        /* 803 */
+/* 803 */
 
-        position: absolute;
-        width: 173.94px;
-        height: 100px;
-        right: 594.06px;
-        top: 260px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 100px;
-        line-height: 100px;
-        /* identical to box height, or 100% */
-        color: #2568A8;
+position: absolute;
+width: 69px;
+height: 48px;
+right: 230px;
+top: 200px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
     .project {
-        /* проекта успешно  выполнены */
+/* проекта успешно  выполнены */
 
-        position: absolute;
-        width: 165.8px;
-        height: 52px;
-        right: 413px;
-        top: 300px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 19px;
-        line-height: 26px;
-        /* or 137% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 103px;
+height: 32px;
+right: 116px;
+top: 150px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .fo {
-        /* 442 */
+/* 442 */
 
-        position: absolute;
-        width: 171.48px;
-        height: 100px;
-        right: 596.52px;
-        top: 420px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 100px;
-        line-height: 100px;
-        /* identical to box height, or 100% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 69px;
+height: 48px;
+right: 231px;
+top: 142px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
     .client {
-        /* клиента остались  довольны */
+/* клиента остались  довольны */
 
-        position: absolute;
-        width: 168.47px;
-        height: 52px;
-        right: 413px;
-        top: 460px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 19px;
-        line-height: 26px;
-        /* or 137% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 106px;
+height: 32px;
+right: 113px;
+top: 208px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* or 133% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .backgr2 {
-        /* Иллюстрация бэкгрунд */
-
-        position: absolute;
-        width: 795px;
-        height: 510px;
-        right: 1125px;
-        top: 1590px;
-        mix-blend-mode: multiply;
-
+     display: none;
     }
 
     .comp-okz {
-        /* Компания оказывает услуги в следующих сферах */
+/* Компания оказывает услуги в следующих сферах */
 
-        position: absolute;
-        width: 534px;
-        height: 96px;
-        right: 1071px;
-        top: 1384px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 48px;
-        /* or 126% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 253px;
+height: 44px;
+left: 25px;
+top: 1270px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .shkh2 {
-        /* Rectangle 462 */
+/* Mask Group */
 
-        position: absolute;
-        width: 520px;
-        height: 220px;
-        right: 975px;
-        top: 1530px;
-        background: rgba(10, 72, 119, 0.8);
-        border-radius: 2px;
-        transition: all 0.3s ease-in;
-        cursor: pointer;
+position: absolute;
+width: 320px;
+height: 100px;
+left: 0px;
+top: 1328px;
+
     }
 
     .shkh2 div {
-        /* ЖКХ */
+    /* ЖКХ */
 
-        position: absolute;
-        width: 81px;
-        height: 36px;
-        left: 50px;
-        top: 30px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 36px;
-        /* identical to box height, or 106% */
-        color: #FFFFFF;
+position: absolute;
+width: 39px;
+height: 20px;
+left: 40px;
+top: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+color: #FFFFFF;
 
-    }
-
-    .shkh2:hover {
-        background: rgba(49, 126, 185, 0.92);
     }
 
     .dor-hoz2 {
-        /* Rectangle 462 */
-        position: absolute;
-        width: 520px;
-        height: 220px;
-        right: 425px;
-        top: 1530px;
-        background: rgba(10, 72, 119, 0.8);
-        border-radius: 2px;
-        cursor: pointer;
-        transition: all 0.3s ease-in;
+    /* Group 1111 */
+
+position: absolute;
+width: 320px;
+height: 100px;
+left: 0px;
+top: 1530px;
+
     }
 
     .dor-hoz2 div {
-        /* Дорожное хозяйство */
+/* Дорожное хозяйство */
 
-        position: absolute;
-        width: 360px;
-        left: 50px;
-        top: 30px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 36px;
-        /* identical to box height, or 106% */
-        color: #FFFFFF;
+position: absolute;
+width: 170px;
+height: 20px;
+left: 40px;
+top: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+color: #FFFFFF;
 
-    }
-
-    .dor-hoz2:hover {
-        background: rgba(49, 126, 185, 0.92);
     }
 
     .arh2 {
-        /* Rectangle 36 */
+/* Group 1110 */
 
-        position: absolute;
-        width: 520px;
-        height: 220px;
-        right: 975px;
-        top: 1780px;
-        background: rgba(10, 72, 119, 0.8);
-        border-radius: 2px;
-        cursor: pointer;
-        transition: all 0.3s ease;
+position: absolute;
+width: 320px;
+height: 100px;
+left: 0px;
+top: 1429px;
+
     }
 
     .arh2 div {
-        /* Архитектура */
+    /* Архитектура */
 
-        position: absolute;
-        width: 220px;
-        height: 36px;
-        left: 50px;
-        top: 30px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 36px;
-        /* identical to box height, or 106% */
-        color: #FFFFFF;
+position: absolute;
+width: 104px;
+height: 20px;
+left: 40px;
+top: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+color: #FFFFFF;
 
-    }
-
-    .arh2:hover {
-        background: rgba(49, 126, 185, 0.92);
     }
 
     .programm {
-        /* Rectangle 462 */
+   /* Group 1127 */
 
-        position: absolute;
-        width: 520px;
-        height: 220px;
-        right: 425px;
-        top: 1780px;
-        background: rgba(10, 72, 119, 0.8);
-        border-radius: 2px;
-        cursor: pointer;
-        transition: all 0.3s ease-in;
+position: absolute;
+width: 320px;
+height: 100px;
+left: 0px;
+top: 1631px;
 
     }
 
     .programm div {
-        /* Программы */
+/* Программы */
 
-        position: absolute;
-        width: 201px;
-        height: 36px;
-        left: 50px;
-        top: 30px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 36px;
-        /* identical to box height, or 106% */
-        color: #FFFFFF;
+position: absolute;
+width: 95px;
+height: 20px;
+left: 40px;
+top: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+color: #FFFFFF;
 
-    }
-
-    .programm:hover {
-        background: rgba(49, 126, 185, 0.92);
     }
 
     .stages {
-        /* Этапы работы */
+    /* Этапы работы */
 
-        position: absolute;
-        width: 285px;
-        height: 48px;
-        right: 1320px;
-        top: 2911px;
-        /* H1 */
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 48px;
-        /* identical to box height, or 126% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 129px;
+height: 22px;
+right: 171px;
+top: 2248px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .discuss {
-        /* question-mark */
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        right: 1340px;
-        top: 3018px;
+   /* question-mark */
+
+position: absolute;
+width: 62px;
+height: 62px;
+right: 238px;
+top: 2300px;
 
     }
 
     .consult-cl {
         /* Консультация клиента */
-        position: absolute;
-        width: 250px;
-        height: 24px;
-        right: 1255px;
-        top: 3098px;
-        font-family: 'Ubuntu';
-        font-style: bold;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
+
+position: absolute;
+width: 175px;
+height: 20px;
+right: 53px;
+top: 2300px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+/* Style */
+color: #2D2B2D;
 
     }
 
-    .text-consult {
-        /* Наш специалист поможет в выборе необходимого проекта, который актуален для Вас на сегодняшний день */
+    .text-consult-mob {
+  /* Наш специалист подскажет выбор необходимого проекта, какой проект актуален для Вас  на сегодняшний день */
+display: block;
+position: absolute;
+width: 197px;
+height: 72px;
+left: 95px;
+top: 2324px;
+text-align: left;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
 
-        position: absolute;
-        width: 340px;
-        height: 66px;
-        right: 1210px;
-        top: 3136px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        text-align: center;
-        color: #2D2B2D;
+    }
 
+    .text-consult-mob p {
+        margin: 0px;
     }
 
     .arrow-line3 {
-        display: inline-block;
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -3713,57 +3549,57 @@ display: none;
     }
 
     .dogov {
-        /* edit 1 */
-        position: absolute;
-        width: 80px;
-        height: 78.95px;
-        right: 920px;
-        top: 3018px;
+    /* secure */
+
+position: absolute;
+width: 62px;
+height: 62px;
+right: 238px;
+top: 2416px;
 
     }
 
     .zag-dogov {
-        /* Заключение договора */
+/* Заключение договора */
 
-        position: absolute;
-        width: 250px;
-        height: 24px;
-        right: 835px;
-        top: 3098px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 174px;
+height: 20px;
+right: 54px;
+top: 2416px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .text-dogov {
-        /* Обсуждение и согласование индивидуальных условий  работы и оплаты */
+ /* Обсуждение и согласование индивидуальных условий  работы и оплаты */
 
-        position: absolute;
-        width: 230px;
-        height: 66px;
-        right: 850px;
-        top: 3136px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 208px;
+height: 54px;
+right: 20px;
+top: 2440px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
 
     }
 
     .arrow-line4 {
-        display: inline-block;
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -3790,107 +3626,110 @@ display: none;
     }
 
     .file {
-        /* file (1) */
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        right: 500px;
-        top: 3018px;
+    /* file (1) */
+
+position: absolute;
+width: 62px;
+height: 62px;
+right: 238px;
+top: 2514px;
 
     }
 
     .zag-file {
-        /* Сбор исходной информации */
+/* Сбор исходной  информации */
 
-        position: absolute;
-        width: 250px;
-        height: 24px;
-        right: 415px;
-        top: 3098px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 121px;
+height: 40px;
+right: 107px;
+top: 2514px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
 
     }
 
-    .text-file {
-        /* Технический специалист свяжется с Вами  и поможет решить все вопросы  по сбору данных */
-
-        position: absolute;
-        width: 340px;
-        height: 66px;
-        right: 370px;
-        top: 3136px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
-
+    .text-file-mob {
+/* Технический специалист свяжется с Вами и поможет решить все вопросы по сбору данных */
+display: block;
+position: absolute;
+width: 209px;
+height: 72px;
+right: 19px;
+top: 2558px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
     }
 
     .gears {
-        /* gears 1 */
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        left: 715px;
-        top: 3244px;
+/* edit 1 */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 25px;
+top: 2650px;
 
     }
 
     .zag-gears {
-        /* Разработка и согласование проекта */
+    /* Разработка и согласование проекта */
 
-        position: absolute;
-        width: 250px;
-        height: 48px;
-        right: 1046px;
-        top: 3332px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* or 133% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
-
+position: absolute;
+width: 209px;
+height: 40px;
+right: 19px;
+top: 2650px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
     }
 
     .text-gears {
-        /* Проект разрабатывается с учётом  всех предложений и отправляется Заказчику на согласование */
+        display: none;
+    }
 
-        position: absolute;
-        width: 340px;
-        height: 66px;
-        right: 1001px;
-        top: 3386px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
-
+    .text-gears-mob {
+    /* Проект отправляется Заказчику  на согласование, учитываются  предложения к проекту */
+display: block;
+position: absolute;
+width: 209px;
+height: 54px;
+right: 19px;
+top: 2694px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
     }
 
     .arrow-line5 {
-        display: inline-block;
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -3917,185 +3756,178 @@ display: none;
     }
 
     .act {
-        /* letter */
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        right: 710px;
-        top: 3244px;
+/* letter */
+
+position: absolute;
+width: 61.7px;
+height: 62px;
+right: 238.3px;
+top: 2768px;
 
     }
 
     .zag-act {
-        /* Подписание акта и оплата счета */
+/* Подписание акта и оплата счета */
 
-        position: absolute;
-        width: 250px;
-        height: 48px;
-        right: 625px;
-        top: 3332px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* or 133% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
-
+position: absolute;
+width: 153.26px;
+height: 40px;
+right: 74.74px;
+top: 2768px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
     }
 
     .text-act {
-        /* После успешного согласования  проекта, Заказчик оплачивает  оказанные услуги */
+/* После согласования проекта  подписывается акт выполненных работ и оплачивается счет Заказчиком */
 
-        position: absolute;
-        width: 300px;
-        height: 66px;
-        right: 579px;
-        top: 3386px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        text-align: center;
-        /* Style */
-        color: #2D2B2D;
-
+position: absolute;
+width: 208px;
+height: 72px;
+right: 20px;
+top: 2812px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
+text-align: left;
     }
 
     .bg-map {
-        /* Map */
+/* Rectangle 501 */
 
-        position: absolute;
-        width: 100%;
-        height: 817px;
-        top: 3552px;
-        background: #F0F7FC;
+position: absolute;
+width: 320px;
+height: 416px;
+right: 0px;
+top: 2922px;
+background: #F0F7FC;
 
     }
 
     .carts {
-        /* Карта оказания услуг */
+/* Карта оказания услуг */
 
-        position: absolute;
-        width: 407px;
-        height: 48px;
-        right: 1198px;
-        top: 3672px;
-        /* H1 */
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 48px;
-        /* identical to box height, or 126% */
-        color: #2D2B2D;
+position: absolute;
+width: 192px;
+height: 22px;
+right: 108px;
+top: 2960px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+/* Style */
+color: #2D2B2D;
+
 
     }
 
     .comp2 {
-        /* Компания 5С-Проект оказывает услуги по всей России */
+/* Компания 5С-Проект оказывает услуги по всей России: от Камчатского края  до Мурманской области */
 
-        position: absolute;
-        width: 368px;
-        height: 48px;
-        right: 1237px;
-        top: 3730px;
-        font-family: 'Ubuntu';
-        font-style: medium;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* or 133% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 240px;
+height: 54px;
+right: 60px;
+top: 2992px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .btn-zayav2 {
-        /* Button */
+/* Button */
 
-        /* Auto layout */
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 19px 35px;
-        gap: 10px;
-        position: absolute;
-        width: 203px;
-        height: 60px;
-        right: 1335px;
-        top: 3832px;
-        /* #3E8BC5 */
-        background: #2D2B2D;
-        border-radius: 2px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 13px 81px;
+gap: 10px;
+position: absolute;
+width: 117px;
+height: 48px;
+right: 20px;
+top: 3066px;
+/* Style */
+background: #2D2B2D;
+border-radius: 2px;
         cursor: pointer;
-        transition: all 0.3s ease-in;
 
-    }
-
-    .btn-zayav2:hover {
-        background-color: #2568A8;
     }
 
     .btn-zayav2 div {
-        /* Оставить заявку */
+/* Оставить заявку */
 
-        width: 133px;
-        height: 22px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 550;
-        font-size: 16px;
-        line-height: 22px;
-        /* identical to box height, or 138% */
-        color: #F0F7FC;
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        left: 30px;
-        position: absolute;
-        left: 70px;
+width: 117px;
+height: 22px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+color: #F0F7FC;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+left: 80px;
 
     }
 
     .map {
-        /* Map */
+/* Map */
 
-        position: absolute;
-        width: 1398px;
-        height: 744.59px;
-        left: 387px;
-        top: 32.29px;
-
+position: absolute;
+width: 280px;
+height: 160px;
+left: 20px;
+top: 230px;
     }
 
     .documents {
-        /* Удостоверения и сертификаты */
+    /* Удостоверения и сертификаты */
 
-        position: absolute;
-        width: 300px;
-        height: 96px;
-        right: 1305px;
-        top: 4439px;
+position: absolute;
+width: 139px;
+height: 44px;
+right: 154px;
+top: 3376px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+/* Style */
+color: #2D2B2D;
 
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 48px;
-        /* or 126% */
-        /* Style */
-        color: #2D2B2D;
 
     }
 
     .arrow-line7 {
-        display: inline-block;
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -4125,16 +3957,8 @@ display: none;
         cursor: pointer;
     }
 
-    .arrow-line7:hover {
-        background: #215D97;
-    }
-
-    .arrow-line7:hover::after {
-        border-left-color: #215D97;
-    }
-
     .arrow-line6 {
-        display: inline-block;
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -4164,28 +3988,20 @@ display: none;
         cursor: pointer;
     }
 
-    .arrow-line6:hover {
-        background: #215D97;
-    }
-
-    .arrow-line6:hover::after {
-        border-right-color: #215D97;
-    }
-
     .doc1 {
-        /* 1 */
+/* Mask Group */
 
-        position: absolute;
-        width: 272px;
-        height: 200px;
-        left: 729px;
-        top: 4439px;
+position: absolute;
+width: 178px;
+height: 130px;
+left: 71px;
+top: 3446px;
 
     }
 
     .doc2 {
         /* 2 */
-
+display: none;
         position: absolute;
         width: 272px;
         height: 200px;
@@ -4196,7 +4012,7 @@ display: none;
 
     .doc3 {
         /* 3 */
-
+display: none;
         position: absolute;
         width: 272px;
         height: 200px;
@@ -4205,8 +4021,28 @@ display: none;
 
     }
 
-    body {
-        overflow-x: hidden;
+    .hr5 {
+        /* Line 115 */
+
+position: absolute;
+width: 280px;
+height: 0px;
+left: 20px;
+top: 3601px;
+border: 3px solid #71B3E4;
+
+    }
+
+    .hr6 {
+        /* Line 116 */
+
+position: absolute;
+width: 101px;
+height: 0px;
+left: 20px;
+top: 3601px;
+border: 3px solid #0F4272;
+
     }
 
     .bg4 {
@@ -4436,20 +4272,20 @@ display: none;
     }
 
     .bg3 {
-        /* Rectangle 49 */
+        /* Frame 1130 */
 
-        position: absolute;
-        width: 1920px;
-        height: 622px;
-        right: 0px;
-        top: 2100px;
+position: absolute;
+width: 320px;
+height: 441px;
+left: 0px;
+top: 1769px;
         background: #F0F7FC;
 
     }
 
     .history {
         /* История */
-
+        display: none;
         position: absolute;
         width: 399px;
         height: 127px;
@@ -4466,78 +4302,76 @@ display: none;
     }
 
     .rost-comp {
-        /* Рост компании */
+/* Рост компании */
 
-        position: absolute;
-        width: 282px;
-        height: 48px;
-        right: 1323px;
-        top: 2170px;
-        /* H1 */
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 48px;
-        /* identical to box height, or 126% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 134px;
+height: 22px;
+right: 166px;
+top: 1807px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .hr2 {
-        /* Rectangle 46 */
+/* Rectangle 46 */
 
-        position: absolute;
-        width: 1920px;
-        height: 90px;
-        right: 0px;
-        top: 2258px;
-        background: #3E8BC5;
+position: absolute;
+width: 320px;
+height: 54px;
+right: 0px;
+top: 1845px;
+background: #3E8BC5;
 
     }
 
     .two-zero {
-        /* 2020 */
+/* 2020 */
 
-        position: absolute;
-        width: 141px;
-        height: 72px;
-        right: 1434px;
-        top: 2267px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 62px;
-        line-height: 72px;
-        /* identical to box height, or 116% */
-        color: #FFFFFF;
+position: absolute;
+width: 55px;
+height: 32px;
+right: 245px;
+top: 1856px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+color: #FFFFFF;
 
     }
 
     .two-zero-text {
-        /* Медийная реклама, согласно Ф.Котлеру, верифицирует клиентский спрос. Эмпирическая история искусств, с другой стороны, вступает эксикатор, отвоевывая свою долю рынка. Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится с концепцией Истона. */
+/* Медийная реклама, согласно Ф.Котлеру, верифицирует клиентский спрос. Эмпирическая история искусств, с другой стороны, вступает эксикатор, отвоевывая свою долю рынка. Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится  с концепцией Истона. */
 
-        position: absolute;
-        width: 520px;
-        height: 236px;
-        right: 1055px;
-        top: 2376px;
-
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        /* or 156% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 280px;
+height: 226px;
+right: 20px;
+top: 1911px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .two-nine {
         /* 2019 */
-
+        display: none;
         position: absolute;
         width: 141px;
         height: 48px;
@@ -4556,7 +4390,7 @@ display: none;
 
     .two-nine-text {
         /* Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится с концепцией Истона. */
-
+        display: none;
         position: absolute;
         width: 520px;
         height: 180px;
@@ -4572,9 +4406,7 @@ display: none;
 
     }
 
-
     .arrow-line8 {
-        display: inline-block;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -4585,10 +4417,6 @@ display: none;
         left: 1548px;
         transition: all 0.3s ease-in;
         cursor: pointer;
-    }
-
-    .arrow-line8:hover {
-        background: #FFFFFF;
     }
 
     .arrow-line8::after {
@@ -4608,12 +4436,8 @@ display: none;
         cursor: pointer;
     }
 
-    .arrow-line8:hover::after {
-        border-left-color: #FFFFFF;
-    }
-
     .arrow-line9 {
-        display: inline-block;
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -4643,12 +4467,28 @@ display: none;
         transition: border-right-color 0.3s;
     }
 
-    .arrow-line9:hover {
-        background: #FFFFFF;
+    .hr3 {
+/* Line 115 */
+
+position: absolute;
+width: 280px;
+height: 0px;
+left: 20px;
+top: 2172px;
+border: 3px solid #71B3E4;
+
     }
 
-    .arrow-line9:hover::after {
-        border-right-color: #FFFFFF;
+    .hr4 {
+        /* Line 116 */
+
+position: absolute;
+width: 101px;
+height: 0px;
+left: 20px;
+top: 2172px;
+border: 3px solid #0F4272;
+cursor: pointer;
     }
 
     .logo-foot {
