@@ -15,32 +15,20 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-const btn = document.getElementById('myBtn');
 const modal = document.getElementById('myModal');
+const btn = document.getElementById('myBtn');
+const span = document.getElementsByClassName('close')[0];
 
-// Функция для переключения текста и состояния модалки
-function toggleModal() {
-  const isOpen = modal.classList.toggle('show'); 
-  // Меняем текст в зависимости от того, открыта модалка или нет
-  if (isOpen) {
-    btn.textContent = btn.dataset.textClose; // "Закрыть окно"
-  } else {
-    btn.textContent = btn.dataset.textOpen;  // "Открыть окно"
-  }
+btn.onclick = function() {
+  modal.style.display = 'block';
 }
 
-btn.addEventListener('click', toggleModal);
+span.onclick = function() {
+  modal.style.display = 'none';
+}
 
-// Закрытие по крестику
-modal.querySelector('.close').addEventListener('click', function() {
-  modal.classList.remove('show');
-  btn.textContent = btn.dataset.textOpen; // возвращаем исходный текст
-});
-
-// Закрытие по клику вне окна (по фону)
-window.addEventListener('click', function(event) {
-  if (event.target === modal) {
-    modal.classList.remove('show');
-    btn.textContent = btn.dataset.textOpen;
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
   }
-});
+}
