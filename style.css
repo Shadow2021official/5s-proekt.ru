@@ -136,17 +136,34 @@ top: 29px;
 
 }
 
-.modal-trigger {
+.obr-zv {
     /* кнопка */
 
 position: absolute;
 width: 181px;
 height: 45px;
 left: 1424px;
-top: 30px;
-border: 2px #2568A8;
-border-color: #2568A8;
+top: 20px;
 z-index: 999;
+  outline: 2px solid #2568A8; 
+  outline-offset: -2px; 
+  cursor: pointer;
+}
+
+.obr-zv:hover {
+    background-color: #2568A8;
+}
+
+.obr-zv:hover div {
+    color: #ffffff;
+}
+
+.obr-zv div {
+    text-align: center;
+    top: 10px;
+    position: absolute;
+    left: 20px;
+    font-family: 'Ubuntu';
 }
 
 .btn-zayav div {
@@ -180,8 +197,8 @@ color: #2568A8;
 position: absolute;
 width: 51px;
 height: 22px;
-left: 650px;
-top: 15px;
+left: 630px;
+top: 13px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
@@ -373,6 +390,8 @@ height: 60px;
 /* #3E8BC5 */
 background: #3E8BC5;
 border-radius: 2px;
+border: none;
+cursor: pointer;
 
 }
 
