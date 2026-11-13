@@ -1392,9 +1392,8 @@ input {
     flex: none;
     order: 0;
     flex-grow: 0;
-    left: 30px;
+    left: 45px;
     position: absolute;
-    left: 70px;
 
 }
 
@@ -1726,9 +1725,9 @@ body {
     /* Отправить */
 
     position: absolute;
-    width: 82px;
+    width: 150px;
     height: 22px;
-    left: 60px;
+    left: 30px;
     top: 20px;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -2548,6 +2547,10 @@ color: #FFFFFF;
     src: url(./fonts/Proxima_Nova.ttf);
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 320px) {
     header {
     /* Rectangle 499 */
@@ -2624,6 +2627,10 @@ transition: all 0.4s ease-in-out
   :has(#menu-toggle:checked) .tel3 {
     display: none;
   }
+}
+
+.obr-zv {
+  display: none;
 }
 
 .number4 {
@@ -3001,7 +3008,8 @@ left: 0;
 /* Rectangle 511 */
 
 position: absolute;
-width: 321px;
+ width: 100%;
+  box-sizing: border-box;
 height: 520px;
 left: 0px;
 top: 50px;
@@ -3848,7 +3856,8 @@ text-align: left;
 /* Rectangle 501 */
 
 position: absolute;
-width: 320px;
+ width: 100%;
+  box-sizing: border-box;
 height: 416px;
 right: 0px;
 top: 2922px;
@@ -4089,7 +4098,8 @@ border: 3px solid #0F4272;
 /* Rectangle 4 */
 
 position: absolute;
-width: 320px;
+ width: 100%;
+  box-sizing: border-box;
 height: 549px;
 right: 0px;
 top: 3639px;
@@ -4364,7 +4374,8 @@ color: #2D2B2D;
 /* Rectangle 46 */
 
 position: absolute;
-width: 320px;
+ width: 100%;
+  box-sizing: border-box;
 height: 54px;
 right: 0px;
 top: 1845px;
@@ -4821,7 +4832,7 @@ border: 1px solid #A6BED5;
 /* Line 7 */
 
 position: absolute;
-width: 320px;
+width: 318px;
 height: 0px;
 right: 0px;
 top: 500px;
@@ -4964,44 +4975,45 @@ top: 595px;
 position: absolute;
 width: 7.52px;
 height: 9.86px;
-left: 160px;
+left: 159px;
 top: 595px;
 
     }
 
     .a2 {
-        /* Vector */
+    /* Vector */
 
-        position: absolute;
-        left: 82.33%;
-        right: 17.27%;
-        top: 89.55%;
-        bottom: 7.93%;
+position: absolute;
+width: 7.62px;
+height: 9.86px;
+left: 167px;
+top: 595px;
 
     }
 
     .r {
-        /* Vector */
+/* Vector */
 
-        position: absolute;
-        left: 82.81%;
-        right: 16.86%;
-        top: 89.55%;
-        bottom: 7.93%;
-        ;
+position: absolute;
+width: 6.27px;
+height: 9.87px;
+left: 177px;
+top: 595px;
 
     }
 
     .t2 {
-        /* Vector */
+/* Vector */
 
-        position: absolute;
-        left: 83.2%;
-        right: 16.41%;
-        top: 89.55%;
-        bottom: 7.93%;
+position: absolute;
+width: 7.53px;
+height: 9.86px;
+left: 183px;
+top: 595px;
 
     }
 
-
+    body {
+        overflow-x: hidden;
+    }
 }
