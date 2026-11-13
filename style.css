@@ -2530,6 +2530,24 @@ color: #FFFFFF;
     display: none;
 }
 
+.btn-text-mob {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-VariableFont.ttf);
+}
+
+.text-work-mob {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(./fonts/Proxima_Nova.ttf);
+}
+
 @media screen and (max-width: 320px) {
     header {
     /* Rectangle 499 */
@@ -2545,10 +2563,14 @@ background: #FFFFFF;
 
     .whatsapp {
         display: none;
+        left: 0;
+        top: 0;
     }
 
     .viber {
         display: none;
+        left: 0;
+        top: 0;
     }
 
     .tel3 {
@@ -2653,6 +2675,8 @@ color: #2568A8;
   width: 320px;
   background-color: #ffffff;
   z-index: 999;
+  left: 0;
+  top: 0;
 }
 
 .submenu-toggle {
@@ -2772,7 +2796,7 @@ color: #2D2B2D;
 position: absolute;
 width: 67px;
 height: 18px;
-right: 233px;
+left: 20px;
 top: 152px;
 font-family: 'Ubuntu';
 font-style: normal;
@@ -2826,18 +2850,26 @@ color: #2D2B2D;
 
     .number1 {
     display: none;
+    left: 0;
+        top: 0;
     }
 
     .number2 {
     display: none;
+    left: 0;
+        top: 0;
     }
 
     .contacts {
      display: none;
+     left: 0;
+        top: 0;
     }
 
     .o_comp {
     display: none;
+    left: 0;
+        top: 0;
     }
 
     .logo {
@@ -2913,6 +2945,8 @@ position: absolute;
 
     .dropdown {
 display: none;
+left: 0;
+        top: 0;
     }
 
     .dropdown-toggle {
@@ -2921,8 +2955,8 @@ display: none;
         position: absolute;
         width: 51px;
         height: 22px;
-        left: 630px;
-        top: 13px;
+        left: 0;
+        top: 0;
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 400;
@@ -2937,6 +2971,8 @@ display: none;
 
     .dropdown-menu {
         display: none;
+        left: 0;
+        top: 0;
     }
 
     .ost-zayav {
@@ -2947,8 +2983,8 @@ display: none;
         position: absolute;
         width: 220px;
         height: 28px;
-        left: 20px;
-        top: 40px;
+        left: 0;
+        top: 0;
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 500;
@@ -2967,7 +3003,7 @@ display: none;
 position: absolute;
 width: 321px;
 height: 520px;
-left: -1px;
+left: 0px;
 top: 50px;
 
 /* #3E8BC5 */
@@ -3142,8 +3178,8 @@ color: #2D2B2D;
         position: absolute;
         width: 275px;
         height: 48px;
-        left: 320px;
-        top: 110px;
+        left: 0;
+        top: 0;
         /* H1 */
         font-family: 'Ubuntu';
         font-style: normal;
@@ -3161,7 +3197,7 @@ color: #2D2B2D;
 position: absolute;
 width: 270px;
 height: 356px;
-left: -5px;
+left: 0px;
 top: 230px;
 font-family: 'Ubuntu';
 font-style: normal;
@@ -3310,6 +3346,8 @@ color: #2D2B2D;
 
     .backgr2 {
      display: none;
+     left: 0;
+        top: 0;
     }
 
     .comp-okz {
@@ -3606,8 +3644,8 @@ text-align: left;
         height: 2px;
         background: #A5A8B0;
         /* цвет хвоста */
-        top: 3106px;
-        left: 1146px;
+        left: 0;
+        top: 0;
     }
 
     .arrow-line4::after {
@@ -3707,6 +3745,8 @@ text-align: left;
 
     .text-gears {
         display: none;
+        left: 0;
+        top: 0;
     }
 
     .text-gears-mob {
@@ -3736,8 +3776,8 @@ text-align: left;
         height: 2px;
         background: #A5A8B0;
         /* цвет хвоста */
-        top: 3362px;
-        left: 937px;
+        left: 0;
+        top: 0;
     }
 
     .arrow-line5::after {
@@ -4046,20 +4086,20 @@ border: 3px solid #0F4272;
     }
 
     .bg4 {
-        /* Rectangle 4 */
+/* Rectangle 4 */
 
-        position: absolute;
-        width: 1920px;
-        height: 514px;
-        right: 0px;
-        top: 4739px;
-        background: #3E8BC5;
+position: absolute;
+width: 320px;
+height: 549px;
+right: 0px;
+top: 3639px;
+background: #3E8BC5;
 
     }
 
     .bg5 {
         /* Rectangle 4 */
-
+        display: none;
         position: absolute;
         width: 1073px;
         height: 514px;
@@ -4070,49 +4110,51 @@ border: 3px solid #0F4272;
     }
 
     .sotr {
-        /* Мы готовы  к сотрудничеству */
+    /* Мы готовы  к сотрудничеству */
 
-        position: absolute;
-        width: 422px;
-        height: 120px;
-        right: 1073px;
-        top: 4839px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 50px;
-        line-height: 60px;
-        /* or 120% */
-        color: #FFFFFF;
+position: absolute;
+width: 203px;
+height: 56px;
+right: 95px;
+top: 3677px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+color: #FFFFFF;
+
 
     }
 
     .text-sotr {
-        /* Оставьте заявку на сайте, наши менеджеры свяжутся с вами и проконсультируют по всем интересующим вопросам */
+    /* Оставьте заявку на сайте, наши менеджеры свяжутся с вами и проконсультируют по всем интересующим вопросам */
 
-        position: absolute;
-        width: 520px;
-        height: 52px;
-        right: 975px;
-        top: 4974px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-        /* or 144% */
-        color: #FFFFFF;
+position: absolute;
+width: 285px;
+height: 72px;
+right: 15px;
+top: 3749px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* or 120% */
+display: flex;
+align-items: center;
+color: #FFFFFF;
 
     }
 
     .org2 {
         /* 1 */
-
         position: absolute;
-        width: 386px;
-        height: 31px;
-        left: 1085px;
-        top: 4857px;
+        width: 280px;
+        height: 34px;
+        left: 20px;
+        top: 3855px;
         border: none;
         background: transparent;
         outline: none;
@@ -4124,16 +4166,16 @@ border: 3px solid #0F4272;
         left: 15px;
         position: absolute;
         font-size: 16px;
+        top: 0px;
     }
 
     .contact-lic2 {
 
         position: absolute;
-        width: 386px;
-        height: 31px;
-        left: 1085px;
-        top: 4918px;
-
+        width: 280px;
+        height: 34px;
+        left: 20px;
+        top: 3915px;
         border: none;
         background: transparent;
         outline: none;
@@ -4145,16 +4187,17 @@ border: 3px solid #0F4272;
         left: 15px;
         position: absolute;
         font-size: 16px;
+        top: 0px;
     }
 
     .number3 {
         /* 3 */
 
         position: absolute;
-        width: 386px;
+        width: 280px;
         height: 50px;
-        left: 1085px;
-        top: 4960px;
+        left: 20px;
+        top: 3965px;
         border: none;
         background: transparent;
         outline: none;
@@ -4166,23 +4209,24 @@ border: 3px solid #0F4272;
         left: 15px;
         position: absolute;
         font-size: 16px;
+        top: 20px;
     }
 
     .tel2 {
-        /* Телефон */
+    /* Телефон */
 
-        position: absolute;
-        width: 59px;
-        height: 20px;
-        left: 1100px;
-        top: 4960px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        /* identical to box height, or 143% */
-        color: #B2D1E8;
+position: absolute;
+width: 64px;
+height: 13px;
+left: 33px;
+top: 3960px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height, or 108% */
+color: #B2D1E8;
 
     }
 
@@ -4190,10 +4234,10 @@ border: 3px solid #0F4272;
         /* 4 */
 
         position: absolute;
-        width: 386px;
+        width: 280px;
         height: 31px;
-        left: 1085px;
-        top: 5040px;
+        left: 20px;
+        top: 4030px;
         border: none;
         background: transparent;
         outline: none;
@@ -4209,65 +4253,61 @@ border: 3px solid #0F4272;
     }
 
     .otpr {
-        /* Rectangle 14 */
+    /* Frame 18 */
 
-        position: absolute;
-        width: 210px;
-        height: 60px;
-        right: 600px;
-        top: 5109px;
-        background: #FFFFFF;
-        border-radius: 2px;
-        border: none;
-        cursor: pointer;
-        transition: all 0.3s ease-in;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 13px 77px;
+gap: 10px;
+position: absolute;
+width: 280px;
+height: 48px;
+left: 20px;
+top: 4085px;
+/* Style */
+background: #2D2B2D;
+border-radius: 2px;
     }
 
     .otpr div {
         /* Отправить */
 
         position: absolute;
-        width: 82px;
+        width: 150px;
         height: 22px;
         left: 60px;
-        top: 20px;
+        top: 13px;
         font-family: 'Ubuntu';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
         /* identical to box height, or 138% */
-        color: #2568A8;
+        color: #F0F7FC;
         transition: all 0.3s ease-in;
     }
 
-    .otpr:hover {
-        background-color: #2568A8;
-    }
-
-    .otpr:hover div {
-        color: #FFFFFF;
-    }
-
-    .btn-text {
-        /* Нажимая кнопку, вы соглашаетесь на обработку персональных данных */
-
-        position: absolute;
-        width: 157px;
-        height: 48px;
-        right: 420px;
-        top: 5115px;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        /* or 133% */
-        color: #B2D1E8;
+    .btn-text-mob {
+    /* Нажимая кнопку, вы соглашаетесь  на обработку персональных данных */
+display: block;
+position: absolute;
+width: 270px;
+height: 36px;
+right: 15px;
+top: 4140px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+color: #B2D1E8;
 
     }
 
-    .btn-text a {
+    .btn-text-mob a {
         color: #B2D1E8;
     }
 
@@ -4407,6 +4447,7 @@ color: #2D2B2D;
     }
 
     .arrow-line8 {
+        display: none;
         position: absolute;
         width: 40px;
         /* длина хвоста */
@@ -4420,6 +4461,7 @@ color: #2D2B2D;
     }
 
     .arrow-line8::after {
+        display: none;
         content: "";
         position: absolute;
         right: -8px;
@@ -4492,126 +4534,100 @@ cursor: pointer;
     }
 
     .logo-foot {
-        /* logo */
+/* ЂЃ£Ѓ 1 */
 
-        position: absolute;
-        left: 16.41%;
-        right: 66.93%;
-        top: 17.86%;
-        bottom: 68.62%;
+position: absolute;
+width: 120px;
+height: 43px;
+left: 20px;
+top: 30px;
 
     }
 
     footer {
-        position: absolute;
-        top: 5253px;
-        height: 392px;
-        width: 100%;
-        margin: 0;
+/* Rectangle 535 */
+
+position: absolute;
+width: 320px;
+height: 619px;
+left: 0px;
+top: 4186px;
+
     }
 
     .o_comp2 {
-        /* О компании */
+    /* О компании */
 
-        position: absolute;
-        left: 33.23%;
-        right: 50.1%;
-        top: 17.86%;
-        bottom: 76.02%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        /* #2568A8 */
+position: absolute;
+width: 280px;
+height: 20px;
+left: 20px;
+top: 350px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+/* #2568A8 */
+color: #2568A8;
 
-    }
-
-    .o_comp2 a {
-        text-decoration: none;
-        color: #2568A8;
-        transition: all 0.3s ease-in;
-    }
-
-    .o_comp2:hover a {
-        color: #3E8BC5;
     }
 
     .usl2 {
-        /* Услуги */
+/* Услуги */
 
-        position: absolute;
-        left: 33.23%;
-        right: 57.29%;
-        top: 29.59%;
-        bottom: 64.29%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        /* #3E8BC5 */
-        color: #3E8BC5;
+position: absolute;
+width: 159.22px;
+height: 20px;
+left: 20px;
+top: 380px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+/* #2568A8 */
+color: #2568A8;
 
-    }
-
-    .usl2 a {
-        text-decoration: none;
-        color: #2568A8;
-        transition: all 0.3s ease-in;
-    }
-
-    .usl2:hover a {
-        color: #3E8BC5;
     }
 
     .contacts-foot {
-        /* Контакты */
+    /* Контакты */
 
-        position: absolute;
-        left: 33.23%;
-        right: 53.05%;
-        top: 41.33%;
-        bottom: 52.55%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 230.59px;
+height: 20px;
+left: 20px;
+top: 410px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+/* #2568A8 */
+color: #2568A8;
 
-    }
-
-    .contacts-foot a {
-        text-decoration: none;
-        color: #2568A8;
-        transition: all 0.3s ease-in;
-    }
-
-    .contacts-foot:hover a {
-        color: #3E8BC5;
     }
 
     .vacancy {
-        /* Вакансии */
+    /* Вакансии */
 
-        position: absolute;
-        left: 33.23%;
-        right: 53.05%;
-        top: 53.06%;
-        bottom: 40.82%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        /* identical to box height, or 133% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 230.59px;
+height: 20px;
+left: 20px;
+top: 440px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
@@ -4626,79 +4642,83 @@ cursor: pointer;
     }
 
     .adress {
-        /* Адрес */
+    /* Адрес */
 
-        position: absolute;
-        left: 50.05%;
-        right: 46.81%;
-        top: 17.86%;
-        bottom: 76.53%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 22px;
-        /* identical to box height, or 138% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 42px;
+height: 20px;
+left: 20px;
+top: 200px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
     .text-adr {
-        /* 160000, г. Вологда,  Пречистенская наб.,  д. 72, оф. 1Н */
+    /* 160000, г. Вологда, Пречистенская наб.,  д. 72, оф. 1Н */
 
-        position: absolute;
-        left: 50.05%;
-        right: 33.28%;
-        top: 25%;
-        bottom: 58.16%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        /* Style */
-        color: #2D2B2D;
-        width: 160px;
+position: absolute;
+width: 250px;
+height: 36px;
+left: 20px;
+top: 225px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .working {
-        /* Режим работы */
+    /* Режим работы */
 
-        position: absolute;
-        left: 50.05%;
-        right: 42.37%;
-        top: 45.41%;
-        bottom: 48.98%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 22px;
-        /* identical to box height, or 138% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 101px;
+height: 20px;
+left: 20px;
+top: 280px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
     .text-work {
-        /* Пн — Пт  с 8:00 до 16:30 */
+        display: none;
+    }
 
-        position: absolute;
-        left: 50.05%;
-        right: 33.28%;
-        top: 52.55%;
-        bottom: 36.22%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* or 138% */
-        /* Style */
-        color: #2D2B2D;
+    .text-work-mob {
+/* Пн — Пт с 8:00 до 16:30 */
+display: block;
+position: absolute;
+width: 169px;
+height: 18px;
+left: 20px;
+top: 300px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+/* Style */
+color: #2D2B2D;
+
     }
 
     .text-work p {
@@ -4707,247 +4727,245 @@ cursor: pointer;
     }
 
     .number-foot {
-        /* 8 (8172) 50-35-32 */
+    /* 8 (8172) 50-35-32 */
 
-        position: absolute;
-        left: 66.88%;
-        right: 19.84%;
-        top: 17.86%;
-        bottom: 75%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 28px;
-        /* identical to box height, or 100% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 150px;
+height: 22px;
+left: 20px;
+top: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
     .number-foot2 {
-        /* +7 (911) 501-35-32 */
+/* +7 (911) 501-35-32 */
 
-        position: absolute;
-        left: 66.88%;
-        right: 20.42%;
-        top: 28.57%;
-        bottom: 64.29%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 28px;
-        /* identical to box height, or 100% */
-        /* #2568A8 */
-        color: #2568A8;
+position: absolute;
+width: 160px;
+height: 22px;
+left: 20px;
+top: 130px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+/* #2568A8 */
+color: #2568A8;
 
     }
 
     .whatsapp2 {
-        /* whatsapp 6 */
+/* whatsapp 6 */
 
-        position: absolute;
-        left: 80.52%;
-        right: 18.18%;
-        top: 29.08%;
-        bottom: 64.54%;
+position: absolute;
+width: 24px;
+height: 24px;
+left: 210px;
+top: 130px;
 
     }
 
     .viber2 {
-        /* viber 4 */
+    /* viber 4 */
 
-        position: absolute;
-        left: 82.34%;
-        right: 16.46%;
-        top: 29.08%;
-        bottom: 64.54%;
+position: absolute;
+width: 23px;
+height: 24px;
+left: 250px;
+top: 130px;
 
     }
 
     .email3 {
+/* ea503532@yandex.ru */
 
-        /* ea503532@yandex.ru */
-
-        position: absolute;
-        left: 66.93%;
-        right: 24.24%;
-        top: 41.33%;
-        bottom: 53.06%;
-
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        /* identical to box height, or 138% */
-        /* Style */
-        color: #2D2B2D;
+position: absolute;
+width: 126px;
+height: 18px;
+left: 20px;
+top: 160px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+/* Style */
+color: #2D2B2D;
 
     }
 
     .hr-em3 {
-        /* Line 6 */
+    /* Line 6 */
 
-        position: absolute;
-        left: 66.98%;
-        right: 24.9%;
-        top: 46.94%;
-        bottom: 53.06%;
-        border: 1px solid #A6BED5;
+position: absolute;
+width: 126px;
+height: 0px;
+left: 20px;
+top: 175px;
+border: 1px solid #A6BED5;
 
     }
 
     .hr-foot {
-        /* Line 7 */
+/* Line 7 */
 
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 81.63%;
-        bottom: 18.37%;
-        border: 1px solid #CBE6FB;
+position: absolute;
+width: 320px;
+height: 0px;
+right: 0px;
+top: 500px;
+border: 1px solid #CBE6FB;
 
     }
 
     .copr {
-        /* © 2020 ООО «5С-Проект» */
+    /* © 2020 ООО «5С-Проект» */
 
-        position: absolute;
-        left: 16.41%;
-        right: 73.59%;
-        top: 88.27%;
-        bottom: 6.63%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        /* identical to box height, or 125% */
-        color: #A2B8CD;
-        width: 230px;
+position: absolute;
+width: 156px;
+height: 18px;
+left: 20px;
+top: 530px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+color: #A2B8CD;
+
     }
 
     .polytic {
-        /* Политика конфиденциальности */
+    /* Политика конфиденциальности */
 
-        position: absolute;
-        left: 27.71%;
-        right: 59.64%;
-        top: 88.27%;
-        bottom: 6.63%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        /* identical to box height, or 125% */
-        color: #A2B8CD;
-        width: 250px;
+position: absolute;
+width: 198px;
+height: 18px;
+left: 20px;
+top: 560px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+color: #A2B8CD;
+
     }
 
     .sd {
-        /* Сделано в */
+    /* Сделано в */
 
-        position: absolute;
-        left: 74.01%;
-        right: 21.93%;
-        top: 88.27%;
-        bottom: 6.63%;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        /* identical to box height, or 125% */
-        color: #A2B8CD;
-        width: 78px;
+position: absolute;
+width: 63px;
+height: 18px;
+left: 20px;
+top: 590px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+color: #A2B8CD;
+
     }
 
     .logo2 {
         /* surface1 */
 
-        position: absolute;
-        left: 78.33%;
-        right: 20.81%;
-        top: 88.27%;
-        bottom: 6.38%;
+position: absolute;
+left: 28.44%;
+right: 66.45%;
+top: 95.5%;
+bottom: 0.42%;
 
     }
 
     .p {
-        /* Vector */
-        position: absolute;
-        left: 79.39%;
-        right: 20.28%;
-        top: 89.53%;
-        bottom: 7.94%;
+    /* Vector */
+
+position: absolute;
+width: 6.28px;
+height: 9.9px;
+left: 110px;
+top: 595px;
 
     }
 
     .l {
-        /* Vector */
-        position: absolute;
-        left: 79.81%;
-        right: 19.89%;
-        top: 89.53%;
-        bottom: 7.95%;
+    /* Vector */
 
+position: absolute;
+width: 5.77px;
+height: 9.86px;
+left: 118px;
+top: 595px;
     }
 
     .a {
-        /* Vector */
+    /* Vector */
 
-        position: absolute;
-        left: 80.17%;
-        right: 19.43%;
-        top: 89.54%;
-        bottom: 7.95%;
+position: absolute;
+width: 7.62px;
+height: 9.84px;
+left: 125px;
+top: 595px;
 
     }
 
     .c {
-        /* Vector */
+    /* Vector */
 
-        position: absolute;
-        left: 80.62%;
-        right: 18.97%;
-        top: 89.48%;
-        bottom: 7.89%;
+position: absolute;
+width: 7.8px;
+height: 10.31px;
+left: 134px;
+top: 595px;
 
     }
 
     .e {
-        /* Vector */
+   /* Vector */
 
-        position: absolute;
-        left: 81.12%;
-        right: 18.56%;
-        top: 89.54%;
-        bottom: 7.95%;
+position: absolute;
+width: 6.13px;
+height: 9.85px;
+left: 144px;
+top: 595px;
 
     }
 
     .s {
-        /* Vector */
+    /* Vector */
 
-        position: absolute;
-        left: 81.54%;
-        right: 18.13%;
-        top: 89.5%;
-        bottom: 7.9%;
-
+position: absolute;
+width: 6.34px;
+height: 10.2px;
+left: 152px;
+top: 595px;
     }
 
     .t {
-        /* Vector */
+    /* Vector */
 
-        position: absolute;
-        left: 81.94%;
-        right: 17.67%;
-        top: 89.55%;
-        bottom: 7.93%;
+position: absolute;
+width: 7.52px;
+height: 9.86px;
+left: 160px;
+top: 595px;
 
     }
 
@@ -4984,4 +5002,6 @@ cursor: pointer;
         bottom: 7.93%;
 
     }
+
+
 }
