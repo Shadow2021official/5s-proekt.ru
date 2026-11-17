@@ -526,11 +526,14 @@ input {
     right: -3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;      /* Размер головы */
+    width: 10px;
+    /* Размер головы */
     height: 10px;
-    border-top: 3px solid rgb(255, 255, 255, 0.4);    /* Цвет и толщина верхней границы */
-    border-right: 3px solid rgb(255, 255, 255, 0.4);  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
+    border-top: 3px solid rgb(255, 255, 255, 0.4);
+    /* Цвет и толщина верхней границы */
+    border-right: 3px solid rgb(255, 255, 255, 0.4);
+    /* Цвет и толщина правой границы */
+    transform: translateY(-50%) rotate(45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -560,11 +563,13 @@ input {
     position: absolute;
     left: -3px;
     top: 50%;
-    width: 10px; 
+    width: 10px;
     height: 10px;
-    border-top: 3px solid rgb(255, 255, 255, 0.4);  /* Верхняя линия */
-    border-left: 3px solid rgb(255, 255, 255, 0.4); /* Левая линия */
-    transform: translateY(-50%) rotate(-45deg); 
+    border-top: 3px solid rgb(255, 255, 255, 0.4);
+    /* Верхняя линия */
+    border-left: 3px solid rgb(255, 255, 255, 0.4);
+    /* Левая линия */
+    transform: translateY(-50%) rotate(-45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -610,21 +615,21 @@ input {
 
 .comand {
     /* Наша команда */
-/* Приоритеты компании */
+    /* Приоритеты компании */
 
-position: absolute;
-width: 433px;
-height: 48px;
-left: 330px;
-top: 85px;
-/* H1 */
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 38px;
-line-height: 48px;
-/* identical to box height, or 126% */
-color: #2D2B2D;
+    position: absolute;
+    width: 433px;
+    height: 48px;
+    left: 330px;
+    top: 85px;
+    /* H1 */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+    color: #2D2B2D;
 
 }
 
@@ -1037,11 +1042,13 @@ color: #2D2B2D;
     right: -3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;  
+    width: 10px;
     height: 10px;
-    border-top: 3px solid #A5A8B0;    /* Цвет и толщина верхней границы */
-    border-right: 3px solid #A5A8B0;  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
+    border-top: 3px solid #A5A8B0;
+    /* Цвет и толщина верхней границы */
+    border-right: 3px solid #A5A8B0;
+    /* Цвет и толщина правой границы */
+    transform: translateY(-50%) rotate(45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -1113,11 +1120,13 @@ color: #2D2B2D;
     right: -3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;  
+    width: 10px;
     height: 10px;
-    border-top: 3px solid #A5A8B0;    /* Цвет и толщина верхней границы */
-    border-right: 3px solid #A5A8B0;  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
+    border-top: 3px solid #A5A8B0;
+    /* Цвет и толщина верхней границы */
+    border-right: 3px solid #A5A8B0;
+    /* Цвет и толщина правой границы */
+    transform: translateY(-50%) rotate(45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -1239,11 +1248,13 @@ color: #2D2B2D;
     right: -3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;  
+    width: 10px;
     height: 10px;
-    border-top: 3px solid #A5A8B0;    /* Цвет и толщина верхней границы */
-    border-right: 3px solid #A5A8B0;  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
+    border-top: 3px solid #A5A8B0;
+    /* Цвет и толщина верхней границы */
+    border-right: 3px solid #A5A8B0;
+    /* Цвет и толщина правой границы */
+    transform: translateY(-50%) rotate(45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -1446,11 +1457,13 @@ color: #2D2B2D;
     right: -3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;  
+    width: 10px;
     height: 10px;
-    border-top: 3px solid #A5A8B0;    /* Цвет и толщина верхней границы */
-    border-right: 3px solid #A5A8B0;  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
+    border-top: 3px solid #A5A8B0;
+    /* Цвет и толщина верхней границы */
+    border-right: 3px solid #A5A8B0;
+    /* Цвет и толщина правой границы */
+    transform: translateY(-50%) rotate(45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -1484,11 +1497,13 @@ color: #2D2B2D;
     position: absolute;
     left: -3px;
     top: 50%;
-    width: 10px; 
+    width: 10px;
     height: 10px;
-    border-top: 3px solid #A5A8B0;  /* Верхняя линия */
-    border-left: 3px solid #A5A8B0; /* Левая линия */
-    transform: translateY(-50%) rotate(-45deg); 
+    border-top: 3px solid #A5A8B0;
+    /* Верхняя линия */
+    border-left: 3px solid #A5A8B0;
+    /* Левая линия */
+    transform: translateY(-50%) rotate(-45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -1930,11 +1945,13 @@ body {
     right: -3px;
     top: 50%;
     transform: translateY(-50%);
-    width: 10px;  
+    width: 10px;
     height: 10px;
-    border-top: 3px solid rgb(255, 255, 255, 0.4);    /* Цвет и толщина верхней границы */
-    border-right: 3px solid rgb(255, 255, 255, 0.4);  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
+    border-top: 3px solid rgb(255, 255, 255, 0.4);
+    /* Цвет и толщина верхней границы */
+    border-right: 3px solid rgb(255, 255, 255, 0.4);
+    /* Цвет и толщина правой границы */
+    transform: translateY(-50%) rotate(45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -1964,11 +1981,13 @@ body {
     position: absolute;
     left: -3px;
     top: 50%;
-    width: 10px; 
+    width: 10px;
     height: 10px;
-    border-top: 3px solid rgb(255, 255, 255, 0.4);  /* Верхняя линия */
-    border-left: 3px solid rgb(255, 255, 255, 0.4); /* Левая линия */
-    transform: translateY(-50%) rotate(-45deg); 
+    border-top: 3px solid rgb(255, 255, 255, 0.4);
+    /* Верхняя линия */
+    border-left: 3px solid rgb(255, 255, 255, 0.4);
+    /* Левая линия */
+    transform: translateY(-50%) rotate(-45deg);
     transition: border-color 0.3s;
     cursor: pointer;
     border-radius: 2px;
@@ -3119,16 +3138,19 @@ footer {
         content: "";
         position: absolute;
         right: -3px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 10px;      /* Размер головы */
-    height: 10px;
-    border-top: 3px solid #ffffff;    /* Цвет и толщина верхней границы */
-    border-right: 3px solid #ffffff;  /* Цвет и толщина правой границы */
-    transform: translateY(-50%) rotate(45deg); 
-    transition: border-color 0.3s;
-    cursor: pointer;
-    border-radius: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10px;
+        /* Размер головы */
+        height: 10px;
+        border-top: 3px solid #ffffff;
+        /* Цвет и толщина верхней границы */
+        border-right: 3px solid #ffffff;
+        /* Цвет и толщина правой границы */
+        transform: translateY(-50%) rotate(45deg);
+        transition: border-color 0.3s;
+        cursor: pointer;
+        border-radius: 2px;
     }
 
     .arrow-line2 {
@@ -3146,15 +3168,17 @@ footer {
         content: "";
         position: absolute;
         left: -3px;
-    top: 50%;
-    width: 10px; 
-    height: 10px;
-    border-top: 3px solid #ffffff;  /* Верхняя линия */
-    border-left: 3px solid #ffffff; /* Левая линия */
-    transform: translateY(-50%) rotate(-45deg); 
-    transition: border-color 0.3s;
-    cursor: pointer;
-    border-radius: 2px;
+        top: 50%;
+        width: 10px;
+        height: 10px;
+        border-top: 3px solid #ffffff;
+        /* Верхняя линия */
+        border-left: 3px solid #ffffff;
+        /* Левая линия */
+        transform: translateY(-50%) rotate(-45deg);
+        transition: border-color 0.3s;
+        cursor: pointer;
+        border-radius: 2px;
     }
 
     .bg2 {
@@ -3170,7 +3194,7 @@ footer {
 
     .advan {
         /* Приоритеты компании */
-display: none;
+        display: none;
         position: absolute;
         width: 205px;
         height: 26px;
@@ -3188,21 +3212,21 @@ display: none;
     }
 
     .comand {
-     /* Приоритеты компании */
+        /* Приоритеты компании */
 
-position: absolute;
-width: 205px;
-height: 26px;
-left: 20px;
-top: 38px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
-/* or 122% */
-/* Style */
-color: #2D2B2D;
+        position: absolute;
+        width: 205px;
+        height: 26px;
+        left: 20px;
+        top: 38px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        /* or 122% */
+        /* Style */
+        color: #2D2B2D;
 
     }
 
@@ -3923,7 +3947,7 @@ color: #2D2B2D;
         position: absolute;
         width: 117px;
         height: 48px;
-       left: 20px;
+        left: 20px;
         top: 3066px;
         /* Style */
         background: #2D2B2D;
@@ -5020,7 +5044,7 @@ color: #2D2B2D;
 
     }
 
-    body {
+    body  {
         overflow-x: hidden;
     }
 }
