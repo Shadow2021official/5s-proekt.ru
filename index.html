@@ -13,7 +13,77 @@
     <header>
         <div class="container">
             <div class="menu">
+                <div class="hamburger" id="burgerBtn" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="mobile-menu" id="mobileMenu">
+                    <div class="menu-panel main-panel active" id="mainPanel">
+                        <div class="menu-header">
+                            <button class="close-btn" id="closeMenuBtn" aria-label="Закрыть меню">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2568A8" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </button>
+                            <img src="./media/logo.svg" alt="Логотип" class="menu-logo">
+                        </div>
+                        <ul class="menu-list">
+                            <li><a href="#">О компании</a></li>
+                            <li>
+                                <a href="#" id="openSubMenuBtn" class="has-sub">
+                                    <span>Услуги</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2568A8"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="menu-contacts">
+                            <div class="phones">
+                                <a href="" class="phone1">8 (8172) 50-35-32</a>
+                                <a href="" class="phone2">+7 (911) 501-35-32</a>
+                                <div class="socials">
+                                    <img src="./media/whatsapp.png" alt="WhatsApp">
+                                    <img src="./media/viber.png" alt="Viber">
+                                </div>
+                            </div>
+                            <button class="callback-btn">Обратный звонок</button>
+                        </div>
+                    </div>
+                    <div class="menu-panel sub-panel" id="subPanel">
+                        <div class="menu-header">
+                            <button class="close-btn" id="closeMenuBtn2" aria-label="Закрыть меню">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2568A8" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg>
+                            </button>
+                            <img src="./media/logo.svg" alt="Логотип" class="menu-logo">
+                        </div>
+                        <div class="back-btn-wrapper">
+                            <button class="back-btn" id="backToMainBtn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2568A8" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                                <span>Назад</span>
+                            </button>
+                        </div>
+                        <ul class="menu-list sub-list">
+                            <li><a href="#">ЖКХ</a></li>
+                            <li><a href="#">Дорожное хозяйство</a></li>
+                            <li><a href="#">Архитектура</a></li>
+                            <li><a href="#">Программы</a></li>
+                        </ul>
+                    </div>
+                </div>
                 <a href=""><img src="./media/logo.svg" alt="Главная" class="logo"></a>
+                <img src="./media/tel1.svg" alt="" class="tel-mob">
                 <div class="button-header">
                     <a href="" class="o_comp">
                         <div>О компании</div>
@@ -60,12 +130,6 @@
                         <div>Контакты</div>
                     </a>
                 </div>
-                <div class="icon-tel">
-                    <img src="./media/whatsapp.png" alt="" class="whatsapp">
-                    <img src="./media/viber.png" alt="" class="viber">
-                    <div class="number1">+7 (911) 501-35-32</div>
-                    <div class="number2">8 (8172) 50-35-32</div>
-                </div>
                 <a href=""class="button-header2">
                     <div>Обратный звонок</div>
                 </a>
@@ -84,6 +148,7 @@
                 <div class="button-usl">
                     <div>Посмотреть услуги</div>
                 </div>
+                <img src="./media/backgr1.png" alt="" class="backgr-glav2-mob">
                 <a href="#" class="arrow-right">
                     <span class="arrow"></span>
                 </a>
@@ -131,20 +196,28 @@
     <section class="container-company-usl">
         <div class="company-usl">Компания оказывает услуги в следующих сферах</div>
         <div class="btn-up">
-            <div class="button-shkh">
-                <div>ЖКХ</div>
-            </div>
-            <div class="button-dor-hoz">
-                <div>Дорожное хозяйство</div>
-            </div>
+            <a href="">
+                <div class="button-shkh">
+                    <div>ЖКХ</div>
+                </div>
+            </a>
+            <a href="">
+                <div class="button-dor-hoz">
+                    <div>Дорожное хозяйство</div>
+                </div>
+            </a>
         </div>
         <div class="btn-down">
-            <div class="button-arh">
-                <div>Архитектура</div>
-            </div>
-            <div class="button-programm">
-                <div>Программы</div>
-            </div>
+            <a href="">
+                <div class="button-arh">
+                    <div>Архитектура</div>
+                </div>
+            </a>
+            <a href="">
+                <div class="button-programm">
+                    <div>Программы</div>
+                </div>
+            </a>
         </div>
         <img src="./media/backgr2.png" alt="" class="backgr3">
     </section>
@@ -184,25 +257,139 @@
         <div class="imgs-stage-up">
             <img src="./media/discussion.png" alt="" class="img-consult">
             <img src="./media/dogov.png" alt="" class="img-dogov">
+            <img src="./media/file.png" alt="" class="img-info">
         </div>
         <div class="stage-up">
             <div class="consult">
                 <div class="head-consult">Консультация клиента</div>
                 <div class="text-consult">Наш специалист подскажет выбор необходимого проекта, какой проект актуален для Вас на сегодняшний день</div>
             </div>
-            <a href="#" class="arrow-right3">
-                <span class="arrow"></span>
-            </a>
+            <span class="arrow-right3"></span>
             <div class="dogov">
                 <div class="head-dogov">Заключение договора</div>
                 <div class="text-dogov">Обсуждение и согласование индивидуальных условий работы и оплаты</div>
             </div>
-            <a href="#" class="arrow-right4">
+            <span class="arrow-right4"></span>
+            <div class="info">
+                <div class="head-info">Сбор исходной информации</div>
+                <div class="text-info">Технический специалист свяжется с Вами и поможет решить все вопросы по сбору данных</div>
+            </div>
+        </div>
+        <div class="imgs-stage-down">
+            <img src="./media/gears.svg" alt="" class="img-develop">
+            <img src="./media/act.png" alt="" class="img-act">
+        </div>
+        <div class="stage-down">
+            <div class="develop">
+                <div class="head-develop">Разработка и согласование проекта</div>
+                <div class="text-develop">Проект отправляется Заказчику на согласование, учитываются предложения к проекту</div>
+            </div>
+            <span class="arrow-right5"></span>
+            <div class="act">
+                <div class="head-act">Подписание акта и оплата счета</div>
+                <div class="text-act">После согласования проекта <br>подписывается акт выполненных работ <br>и оплачивается счет Заказчиком</div>
+            </div>
+        </div>
+    </section>
+    <section class="backgr-map">
+        <div class="container">
+            <div class="head-map">Карта оказания услуг</div>
+            <div class="text-map">Компания 5С-Проект оказывает услуги <br>по всей России: от Камчатского края <br>до Мурманской области</div>
+            <a href="">
+                <div class="button-map">
+                    <div>Оставить заявку</div>
+                </div>
+            </a>
+            <img src="./media/Map.svg" alt="" class="map">
+        </div>
+    </section>
+    <section class="container-udost">
+        <div class="text-udost">
+            <div class="udost">Удостоверения и сертификаты</div>
+            <a href="#" class="arrow-left7">
+                <span class="arrow"></span>
+            </a> 
+            <a href="#" class="arrow-right6">
                 <span class="arrow"></span>
             </a>
         </div>
+        <div class="imgs-udost">
+            <img src="./media/document1.svg" alt="">
+            <img src="./media/document2.svg" alt="">
+            <img src="./media/document3.svg" alt="">
+        </div>
     </section>
-    <footer></footer>
+    <section class="backgr5">
+        <img src="./media/backgr3.png" alt="" class="img-form">
+        <div class="container-form">
+            <div class="container-text-form">
+                <div class="head-form">Мы готовы к сотрудничеству</div>
+                <div class="text-form">Оставьте заявку на сайте, наши менеджеры свяжутся с вами и проконсультируют по всем интересующим вопросам</div>
+            </div>
+            <div class="container-input">
+                <form action="" method="post">
+                    <input type="text" name="" id="" placeholder="Наименование организации" required class="org"><br>
+                    <input type="text" name="" id="" placeholder="ФИО" required class="fio"><br>
+                    <div class="number">Телефон</div>
+                    <input type="tel" name="" id="" placeholder="+7 900 000-00-00" required class="tel-form"><br>
+                    <input type="email" name="" id="" placeholder="E-mail" required class="email-form"><br>
+                    <div class="container-button">
+                        <button type="submit" class="button-form">Отправить</button>
+                        <div class="text-obr">Нажимая кнопку, вы соглашаетесь на <a href="">обработку персональных данных</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-foot">
+            <img src="./media/logo.svg" alt="" class="logo-foot">
+            <div class="links-foot">
+                <a href=""><div class="o_comp-foot">О компании</div></a>
+                <a href=""><div class="usl-foot">Услуги</div></a>
+                <a href=""><div class="contacts-foot">Контакты</div></a>
+                <a href=""><div class="vacancy-foot">Вакансии</div></a>
+            </div>
+            <div class="address-foot">
+                <div class="head-add">Адрес</div>
+                <div class="text-add">160000, г. Вологда, Пречистенская наб., д. 72, оф. 1Н</div>
+                <div class="oper-mode">
+                    <div class="head-oper">Часы работы</div>
+                    <div class="text-oper">Пн — Пт<br> с 8:00 до 16:30</div>
+                </div>
+            </div>
+            <div class="contacts-foot2">
+                <div class="number1-foot">8 (8172) 50-35-32</div>
+                <div class="number2-foot">+7 (911) 501-35-32 </div>
+                <a href=""><div class="email-foot">ea503532@yandex.ru</div></a>
+                <div class="icons-foot">
+                    <img src="./media/whatsapp.png" alt="" class="whatsapp-foot">
+                    <img src="./media/viber.png" alt="" class="viber-foot">
+                </div>
+            </div>
+        </div>
+        <div class="hr-foot"></div>
+        <div class="container-foot2">
+            <div class="text-foot2">
+                <div class="copyr">© 2020 ООО «5С-Проект»</div>
+                <a href="" class="confid">Политика конфиденциальности</a>
+            </div>
+            <div class="logo2">
+                <div class="sdel">Сделано в</div>
+                <img src="./media/logo2.svg" alt="" class="logo2-img">
+                <img src="./media/p.svg" alt="" class="p">
+                <img src="./media/L.svg" alt="" class="l">
+                <img src="./media/A.svg" alt="" class="a">
+                <img src="./media/C.svg" alt="" class="c">
+                <img src="./media/E.svg" alt="" class="e">
+                <img src="./media/S.svg" alt="" class="s">
+                <img src="./media/T.svg" alt="" class="t">
+                <img src="./media/A.svg" alt="" class="a2">
+                <img src="./media/R.svg" alt="" class="r">
+                <img src="./media/T.svg" alt="" class="t2">
+            </div>
+        </div> 
+    </footer>
     <div class="modal-overlay" id="callbackModal">
         <div class="modal-content">
             <button type="button" class="modal-close" aria-label="Закрыть">&times;</button>

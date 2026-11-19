@@ -1043,7 +1043,7 @@ padding-top: 10px;
   display: inline-block;
   width: 47px;        
   height: 10px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
@@ -1116,7 +1116,7 @@ padding-top: 10px;
   display: inline-block;
   width: 47px;        
   height: 10px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
@@ -1143,4 +1143,2857 @@ padding-top: 10px;
   border-top: 2px solid #A5A8B0;  
   border-right: 2px solid #A5A8B0;
   transform: translateY(-50%) rotate(45deg); 
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-info {
+    /* file (1) */
+width: 80px;
+height: 80px;
+padding-left: 357px;
+}
+
+.head-info {
+    /* Сбор исходной информации */
+
+width: 250px;
+height: 24px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 120px;
+}
+
+.text-info {
+    /* Технический специалист свяжется с Вами  и поможет решить все вопросы  по сбору данных */
+
+width: 340px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 80px;
+padding-top: 15px;
+}
+
+.imgs-stage-down {
+    padding-top: 50px;
+    display: flex;
+}
+
+.stage-down {
+    display: flex;
+}
+
+.img-develop {
+    /* edit 1 */
+
+width: 80px;
+height: 80px;
+padding-left: 420px;
+}
+
+.head-develop {
+    /* Разработка и согласование проекта */
+
+width: 220px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 350px;
+}
+
+.text-develop {
+    /* Проект отправляется Заказчику  на согласование, учитываются  предложения к проекту */
+
+width: 250px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 330px;
+padding-top: 15px;
+}
+
+.arrow-right5 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.arrow-right5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right5::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.img-act {
+    /* letter */
+
+width: 80px;
+height: 80px;
+padding-left: 360px;
+
+}
+
+.head-act {
+    /* Подписание акта и оплата счета */
+
+width: 200px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 150px;
+}
+
+.text-act {
+    /* После согласования проекта  подписывается акт выполненных работ  и оплачивается счет Заказчиком */
+
+width: 370px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 80px;
+padding-top: 15px;
+}
+
+.backgr-map {
+    /* Map */
+height: 817px;
+background: #F0F7FC;
+margin-top: 130px;
+}
+
+.head-map {
+    /* Карта оказания услуг */
+
+width: 407px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+color: #2D2B2D;
+padding-top: 130px;
+}
+
+.text-map {
+    /* Компания 5С-Проект оказывает услуги по всей России: от Камчатского края  до Мурманской области */
+width: 407px;
+height: 72px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #2D2B2D;
+padding-top: 38px;
+}
+
+.button-map {
+
+width: 203px;
+height: 60px;
+background: #2D2B2D;
+border-radius: 2px;
+margin-top: 36px;
+transition: all 0.4s ease-in;
+z-index: 10;
+}
+
+.button-map:hover {
+    background-color: #2568A8;
+}
+
+.button-map div {
+    /* Оставить заявку */
+
+width: 170px;
+height: 22px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #F0F7FC;
+box-sizing: border-box;
+padding-left: 40px;
+padding-top: 17px;
+}
+
+.map {
+    /* Map */
+
+width: 1303px;
+height: 744.59px;
+margin-top: -320px;
+padding-left: 100px;
+z-index: 1;
+}
+
+.container-udost {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.udost {
+    /* Удостоверения и сертификаты */
+
+width: 300px;
+height: 96px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+color: #2D2B2D;
+padding-top: 83px;
+}
+
+.arrow-right6 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-left: 10px;
+  margin-top: 130px;
+}
+
+.arrow-right6::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right6::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.arrow-left7 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 40px;
+  margin-left: 160px;
+}
+
+.arrow-left7::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-left-radius: 2px; 
+  border-bottom-left-radius: 2px;
+  transition: background-color 0.3s;
+}
+
+.arrow-left7::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-left: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(-45deg); 
+  transition: background-color 0.3s;
+}
+
+.imgs-udost {
+    padding-left: 80px;
+    padding-top: 80px;
+    display: flex;
+}
+
+.imgs-udost img {
+    padding: 15px;
+}
+
+.backgr5 {
+    /* Rectangle 4 */
+
+height: 514px;
+background: #3E8BC5;
+margin-top: 90px;
+
+}
+
+.img-form {
+    /* kisspng-building-architectural-drawing-architecture-sketch-hand-painted-city-building-5aa3a19269e656 1 */
+
+width: 1173px;
+height: 514px;
+margin-left: -50px;
+}
+
+.head-form {
+    /* Мы готовы  к сотрудничеству */
+
+width: 422px;
+height: 120px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 60px;
+color: #FFFFFF;
+margin-left: -720px;
+margin-top: 100px;
+}
+
+.container-form {
+    display: flex;
+}
+
+.backgr5 {
+    display: flex;
+}
+
+.text-form {
+    /* Оставьте заявку на сайте, наши менеджеры свяжутся с вами и проконсультируют по всем интересующим вопросам */
+
+width: 520px;
+height: 52px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+margin-left: -720px;
+padding-top: 29px;
+}
+
+.container-input {
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.org {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+}
+
+.org::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.fio {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+    padding-top: 25px;
+}
+
+.fio::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.number {
+    /* Телефон */
+
+width: 59px;
+height: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #B2D1E8;
+padding-left: 15px;
+padding-top: 10px;
+}
+
+.tel-form {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+    padding-top: -10px;
+}
+
+.tel-form::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.email-form {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+    padding-top: 30px;
+}
+
+.email-form::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.button-form {
+    /* Rectangle 14 */
+width: 210px;
+height: 60px;
+background: #FFFFFF;
+border-radius: 2px;
+border: none;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+margin-top: 40px;
+transition: all 0.4s ease-in;
+}
+
+.button-form:hover {
+    background-color: #2568A8;
+    color: #FFFFFF;
+}
+
+.text-obr {
+    /* Нажимая кнопку, вы соглашаетесь на обработку персональных данных */
+width: 157px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #B2D1E8;
+padding-top: 45px;
+padding-left: 20px
+
+}
+
+.text-obr a {
+    color: #B2D1E8;
+    text-decoration: underline;
+}
+
+.container-button {
+    display: flex;
+}
+
+.container-foot {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-foot {
+    /* ЂЃ£Ѓ 1 */
+
+width: 148px;
+height: 53px;
+padding-top: 69px;
+}
+
+.links-foot {
+    padding-top: 60px;
+}
+
+.o_comp-foot {
+    /* О компании */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+
+}
+
+.o_comp-foot:hover {
+    color: #3E8BC5;
+}
+
+.usl-foot {
+    /* Услуги */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.usl-foot:hover {
+    color: #3E8BC5;
+}
+
+.contacts-foot {
+    /* Контакты */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.contacts-foot:hover {
+    color: #3E8BC5;
+}
+
+.vacancy-foot {
+    /* Вакансии */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.address-foot {
+    padding-top: 60px;
+}
+
+.head-add {
+    /* Адрес */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+
+}
+
+.text-add {
+    /* 160000, г. Вологда,  Пречистенская наб.,  д. 72, оф. 1Н */
+    width: 160px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #2D2B2D;
+
+}
+
+.head-oper {
+    /* Режим работы */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.text-oper {
+    width: 120px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #2D2B2D;
+
+}
+
+.contacts-foot2 {
+    padding-top: 60px;
+}
+
+.number1-foot {
+    /* 8 (8172) 50-35-32 */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+color: #2568A8;
+
+}
+
+.number2-foot {
+    /* +7 (911) 501-35-32 */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.email-foot {
+    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #2D2B2D;
+text-decoration: underline;
+padding-top: 20px;
+}
+
+.icons-foot {
+    padding-left: 250px;
+    margin-top: -65px;
+}
+
+.hr-foot {
+    /* Line 7 */
+border: 1px solid #CBE6FB;
+margin-top: 70px;
+}
+
+.container-foot2 {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.text-foot2 {
+    display: flex;
+}
+
+.copyr {
+    /* © 2020 ООО «5С-Проект» */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2B8CD;
+
+}
+
+.confid {
+    /* Политика конфиденциальности */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2B8CD;
+text-decoration: underline;
+padding-left: 28px;
+}
+
+.sdel {
+    /* Сделано в */
+width: 78px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2B8CD;
+margin-right: 5px;
+}
+
+.logo2 {
+    display: flex;
+}
+
+.logo2 img {
+    padding: 1px;
+}
+
+.logo2-img {
+    /* surface1 */
+    width: 16.37px;
+    height: 21px;
+}
+
+.p {
+    width: 6.28px;
+    height: 9.9px;
+    margin-top: 5px;
+}
+
+.l {
+    width: 5.77px;
+    height: 9.86px;
+    margin-top: 5px;
+}
+
+.a {
+    width: 7.62px;
+    height: 9.84px;
+    margin-top: 5px;
+}
+
+.c {
+    width: 7.8px;
+    height: 10.31px;
+    margin-top: 5px;
+}
+
+.e {
+    width: 6.13px;
+    height: 9.85px;
+    margin-top: 5px;
+}
+
+.s {
+    width: 6.34px;
+    height: 10.2px;
+    margin-top: 5px;
+}
+
+.t {
+    width: 7.52px;
+    height: 9.86px;
+    margin-top: 5px;
+}
+
+.a2 {
+    width: 7.62px;
+    height: 9.84px;
+    margin-top: 5px;
+}
+
+.r {
+    width: 6.27px;
+    height: 9.87px;
+    margin-top: 5px;
+}
+
+.t2 {
+    width: 7.53px;
+    height: 9.86px;
+    margin-top: 5px;
+}
+
+.tel-mob {
+    display: none;
+}
+
+.hamburger {
+  display: none; 
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10000; 
+}
+
+.mobile-menu {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 555px;
+  background-color: #FFFFFF;
+  z-index: 9999;
+  overflow: hidden;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1); 
+}
+
+.mobile-menu.active {
+  display: block; 
+}
+
+.menu-panel {
+  display: none; 
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
+
+.menu-panel.active {
+  display: flex; 
+}
+
+.menu-list > .sub-list {
+    font-weight: 500px;
+    padding: 5px;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  height: 65px;
+  box-sizing: border-box;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo {
+  height: 27px;
+  margin-left: 15px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-btn-wrapper {
+  background-color: #E6F0F8; 
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  background: none;
+  border: none;
+  color: #2568A8;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.back-btn svg {
+  margin-right: 10px;
+}
+
+.phones {
+    display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.phone1 {
+    /* 8 (8172) 50-35-32 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #2568A8;
+
+}
+
+.phone2 {
+    /* +7 (911) 501-35-32 */
+
+width: 160px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #2568A8;
+
+}
+
+.socials {
+    display: flex;
+    padding-left: 180px;
+    margin-top: -20px;
+    
+}
+
+.callback-btn {
+  width: 280px;
+  padding: 15px;
+  margin-left: 15px;
+  margin-top: 38px;
+  background-color: #3E8BC5;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.backgr-glav2-mob {
+    display: none;
+}
+
+@media screen and (max-width: 320px) {
+
+body {
+    font-family: 'Ubuntu';
+}
+
+header {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-header {
+    display: none;
+    justify-content: space-between;
+}
+
+.icon-tel {
+    padding: 20px;
+    display: none;
+    justify-content: space-between;
+}
+
+.hamburger {
+    display: block;
+}
+
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #2568A8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.logo {
+    width: 74px;
+    height: 27px;
+    padding-right: 75px;
+    padding-top: 10px;
+}
+
+.tel-mob {
+    display: block;
+    padding-right: 60px;
+}
+
+.o_comp {
+display: none;
+}
+
+.usl {
+    display: none;
+}
+
+.contacts {
+    display: none;
+}
+
+.whatsapp {
+    display: none;
+}
+
+.viber {
+    display: none;
+}
+
+.number1 {
+    display: none;
+}
+.number2 {
+    display: none;
+}
+
+.button-header2 {
+display: none;
+}
+
+.dropdown-container {
+    display: none;
+}
+
+.modal-overlay {
+  display: none;   
+  position: fixed;       
+  inset: 0;                 
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay.active {
+display: none;      
+}
+
+.backgr-glav {
+    /* Rectangle 460 */
+width: 975px;
+min-height: 583px;
+background: #3E8BC5;
+}
+
+.development {
+    /* Разработка и актуализация  проектов в сфере ЖКХ */
+
+width: 290px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+padding-left: 15px;
+margin-top: 0;
+}
+
+.content-backgr-glav {
+    margin-left: 0px;
+    width: 320px;
+}
+
+.help {
+    /* Помощь сертифицированных специалистов */
+
+width: 211px;
+height: 32px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+padding-left: 15px;
+}
+
+.button-usl {
+    /* Group 242 */
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    width: 180px;
+height: 46px;
+margin-top: 41px;
+cursor: pointer;
+margin-left: 15px;
+}
+
+.button-usl div {
+    /* Посмотреть услуги */
+padding-top: 10px;
+padding-left: 15px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+
+}
+
+.button-usl:hover {
+    background-color: #2568A8;
+}
+
+.button-usl:hover div {
+    color: #FFFFFF;
+}
+
+.backgr-glav2 {
+    display: none;
+}
+
+.backgr-glav2-mob {
+    display: block;
+    width: 320px;
+    height: 197px;
+    padding-top: 20px;
+}
+
+.backgr-glav-container {
+    display: block;
+    overflow-x: hidden;
+    width: 320px;
+    min-height: 583px;
+}
+
+.content-backgr-glav {
+    margin: 0;
+    padding-top: 50px;
+}
+
+.arrow-right {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.arrow-right::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #FFFFFF; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #FFFFFF;  
+  border-right: 2px solid #FFFFFF;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.arrow-left {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 60px;
+  margin-left: -110px;
+}
+
+.arrow-left::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #FFFFFF; 
+  border-top-left-radius: 2px; 
+  border-bottom-left-radius: 2px;
+  transition: background-color 0.3s;
+}
+
+.arrow-left::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #FFFFFF;  
+  border-left: 2px solid #FFFFFF;
+  transform: translateY(-50%) rotate(-45deg); 
+  transition: background-color 0.3s;
+}
+
+.backgr2 {
+    /* Rectangle 49 */
+    height: auto;
+background: #F0F7FC;
+margin-top: 80px;
+}
+
+.container-backgr2 {
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-left {
+    margin: 0;
+    width: 770px;
+}
+
+.content-right {
+    width: 520px;
+    margin: 0;
+}
+
+.advan {
+    /* Преимущества */
+display: none;
+
+}
+
+.priority {
+    /* Приоритеты компании */
+
+width: 205px;
+height: 26px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #2D2B2D;
+
+}
+
+.list-priority {
+    /* Регулярное взаимодействие с клиентом на всех этапах –  Ваш персональный менеджер всегда готов ответить на Ваши вопросы  и помочь Строгое соблюдение сроков проектирования Разработка качественной проектной документации, соответствующей всемтребованиям законодательства РФ Постоянное отслеживание нормативной базы, чем гарантируем актуальность наших работ Беремся за работу в разных регионах страны Заботимся о том, чтобы наши клиенты были довольны результатом нашей работы */
+
+width: 630px;
+height: 339px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #2D2B2D;
+
+}
+
+.list-priority li {
+    padding: 8px;
+}
+
+.seven {
+    /* 7лет */
+width: 544px;
+height: 100px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #2568A8;
+margin-top: 90px;
+margin-left: 30px;
+display: flex;
+}
+
+.let {
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 100px;
+color: #2568A8;
+padding-top: 20px;
+padding-left: 0;
+}
+
+.succes-work {
+/* успешной работы  по всей России */
+width: 169px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 26px;
+/* or 137% */
+/* Style */
+color: #2D2B2D;
+padding-left: 40px;
+padding-top: 67px;
+}
+
+.nin-zero {
+    /* 803 */
+width: 544px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+/* identical to box height, or 100% */
+color: #2568A8;
+margin-left: 30px;
+margin-top: 40px;
+display: flex;
+}
+
+.project {
+    /* проекта успешно  выполнены */
+
+width: 165.8px;
+height: 52px;
+right: 413px;
+top: 922px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 26px;
+color: #2D2B2D;
+padding-top: 60px;
+padding-left: 10px;
+}
+
+.fo {
+    /* 442 */
+
+width: 554.48px;
+height: 100px;
+right: 596.52px;
+top: 1004px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #2568A8;
+display: flex;
+margin-left: 30px;
+margin-top: 50px;
+}
+
+.clients {
+    /* клиента остались  довольны */
+
+width: 168.47px;
+height: 52px;
+right: 413px;
+top: 1068px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 26px;
+/* or 137% */
+/* Style */
+color: #2D2B2D;
+padding-top: 67px;
+padding-left: 10px;
+}
+
+.container-company-usl {
+    width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; 
+}
+
+.company-usl {
+    /* Компания оказывает услуги в следующих сферах */
+
+width: 534px;
+height: 96px;
+right: 1071px;
+top: 1354px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+/* or 126% */
+/* Style */
+color: #2D2B2D;
+margin-top: 81px;
+}
+
+.backgr3 {
+    /* kisspng-building-architectural-drawing-architecture-sketch-hand-painted-city-building-5aa3a19269e656 1 */
+width: 1067px;
+height: 610px;
+margin-left: -310px;
+margin-top: -330px;
+z-index: -10;
+}
+
+.btn-up {
+    display: flex;
+}
+
+.button-shkh {
+        /* Mask Group */
+/* Rectangle 462 */
+width: 520px;
+height: 220px;
+background: rgba(10, 72, 119, 0.8);
+border-radius: 2px;
+cursor: pointer;
+margin-top: 30px;
+margin-left: 100px;
+transition: all 0.4s ease-in;
+}
+
+.button-shkh:hover {
+    background-color: #317EB9;
+}
+
+.button-shkh div {
+    padding-left: 60px;
+    padding-top: 30px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 36px;
+color: #FFFFFF;
+
+}
+
+.button-dor-hoz {
+    width: 520px;
+height: 220px;
+background: rgba(10, 72, 119, 0.8);
+border-radius: 2px;
+cursor: pointer;
+margin-top: 30px;
+margin-left: 20px;
+transition: all 0.4s ease-in;
+}
+
+.button-dor-hoz:hover {
+    background-color: #317EB9;
+}
+
+.button-dor-hoz div {
+    /* Дорожное хозяйство */
+padding-left: 30px;
+    padding-top: 30px;
+width: 360px;
+height: 36px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 36px;
+color: #FFFFFF;
+
+}
+
+.btn-down {
+    display: flex;
+}
+
+.button-arh {
+    width: 520px;
+height: 220px;
+background: rgba(10, 72, 119, 0.8);
+border-radius: 2px;
+cursor: pointer;
+margin-top: 30px;
+margin-left: 100px;
+transition: all 0.4s ease-in;
+}
+
+.button-arh:hover {
+    background-color: #317EB9;
+}
+
+.button-arh div {
+    /* Архитектура */
+
+width: 239px;
+height: 45.86px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 36px;
+/* or 106% */
+color: #FFFFFF;
+padding-left: 60px;
+padding-top: 30px;
+}
+
+.button-programm {
+    width: 520px;
+height: 220px;
+background: rgba(10, 72, 119, 0.8);
+border-radius: 2px;
+cursor: pointer;
+margin-top: 30px;
+margin-left: 20px;
+transition: all 0.4s ease-in;
+}
+
+.button-programm:hover {
+    background-color: #317EB9;
+}
+
+.button-programm div {
+    /* Программы */
+
+width: 201px;
+height: 36px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 36px;
+/* identical to box height, or 106% */
+color: #FFFFFF;
+padding-left: 30px;
+padding-top: 30px;
+}
+
+.backgr4 {
+    /* Rectangle 49 */
+height: 622px;
+right: 0px;
+top: 2100px;
+background: #F0F7FC;
+
+}
+
+.history {
+    /* История */
+
+width: 399px;
+height: 127px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 95px;
+line-height: 127px;
+color: rgba(215, 232, 244, 0.7);
+margin-left: 40px;
+}
+
+.rost-comp {
+    /* Рост компании */
+width: 282px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+/* identical to box height, or 126% */
+/* Style */
+color: #2D2B2D;
+margin-top: -50px;
+}
+
+.hr-rost-comp {
+    /* Rectangle 46 */
+height: 90px;
+background: #3E8BC5;
+display: flex;
+margin-top: 51px;
+}
+
+.two-zero {
+    /* 2020 */
+width: 141px;
+height: 72px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 72px;
+color: #FFFFFF;
+padding-left: 290px;
+padding-top: 5px;
+}
+
+.nine-zero {
+    /* 2019 */
+
+width: 141px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 48px;
+/* identical to box height, or 77% */
+color: transparent;
+-webkit-text-stroke: 1px #FFFFFF;
+  paint-order: stroke fill;
+padding-left: 505px;
+padding-top: 15px;
+}
+
+.arrow-right2 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 40px;
+  margin-left: 750px;
+}
+
+.arrow-right2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.arrow-right2:hover::before {
+    background-color: #FFFFFF;
+}
+
+.arrow-right2:hover::after  {
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid#FFFFFF;
+}
+
+.arrow-left2 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 40px;
+  margin-left: -110px;
+}
+
+.arrow-left2::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-left-radius: 2px; 
+  border-bottom-left-radius: 2px;
+  transition: background-color 0.3s;
+}
+
+.arrow-left2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-left: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(-45deg); 
+  transition: background-color 0.3s;
+}
+
+.arrow-left2:hover::before {
+    background-color: #FFFFFF;
+}
+
+.arrow-left2:hover::after  {
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid#FFFFFF;
+}
+
+.text-two-zero {
+    /* Медийная реклама, согласно Ф.Котлеру, верифицирует клиентский спрос. Эмпирическая история искусств, с другой стороны, вступает эксикатор, отвоевывая свою долю рынка. Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится с концепцией Истона. */
+
+width: 520px;
+height: 236px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #2D2B2D;
+padding-left: 320px;
+padding-top: 30px;
+}
+
+.text-backgr4 {
+    display: flex;
+}
+
+.text-nine-zero {
+    /* Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится с концепцией Истона. */
+
+width: 520px;
+height: 180px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px; 
+color: #6E6A70;
+padding-left: 115px;
+padding-top: 30px;
+}
+
+.stages {
+    /* Этапы работы */
+
+width: 285px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+color: #2D2B2D;
+padding-top: 109px;
+}
+
+.imgs-stage-up {
+    display: flex;
+}
+
+.stage-up {
+    display: flex;
+}
+
+.img-consult {
+    /* question-mark */
+
+width: 80px;
+height: 80px;
+padding-left: 188px;
+}
+
+.head-consult{
+    /* Консультация клиента */
+width: 250px;
+height: 24px;
+right: 1255px;
+top: 3010px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 100px;
+}
+
+.text-consult {
+    /* Наш специалист подскажет выбор необходимого проекта, какой проект актуален для Вас на сегодняшний день */
+width: 340px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 60px;
+padding-top: 10px;
+}
+
+.arrow-right3 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.arrow-right3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right3::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.img-dogov {
+    /* secure */
+
+width: 80px;
+height: 80px;
+padding-left: 358px;
+}
+
+.head-dogov {
+    /* Заключение договора */
+
+width: 250px;
+height: 24px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 60px;
+}
+
+.text-dogov {
+    /* Обсуждение и согласование индивидуальных условий  работы и оплаты */
+
+width: 240px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 60px;
+padding-top: 10px;
+}
+
+.arrow-right4 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.arrow-right4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right4::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-info {
+    /* file (1) */
+width: 80px;
+height: 80px;
+padding-left: 357px;
+}
+
+.head-info {
+    /* Сбор исходной информации */
+
+width: 250px;
+height: 24px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 120px;
+}
+
+.text-info {
+    /* Технический специалист свяжется с Вами  и поможет решить все вопросы  по сбору данных */
+
+width: 340px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 80px;
+padding-top: 15px;
+}
+
+.imgs-stage-down {
+    padding-top: 50px;
+    display: flex;
+}
+
+.stage-down {
+    display: flex;
+}
+
+.img-develop {
+    /* edit 1 */
+
+width: 80px;
+height: 80px;
+padding-left: 420px;
+}
+
+.head-develop {
+    /* Разработка и согласование проекта */
+
+width: 220px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 350px;
+}
+
+.text-develop {
+    /* Проект отправляется Заказчику  на согласование, учитываются  предложения к проекту */
+
+width: 250px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 330px;
+padding-top: 15px;
+}
+
+.arrow-right5 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.arrow-right5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right5::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.img-act {
+    /* letter */
+
+width: 80px;
+height: 80px;
+padding-left: 360px;
+
+}
+
+.head-act {
+    /* Подписание акта и оплата счета */
+
+width: 200px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 150px;
+}
+
+.text-act {
+    /* После согласования проекта  подписывается акт выполненных работ  и оплачивается счет Заказчиком */
+
+width: 370px;
+height: 66px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #2D2B2D;
+padding-left: 80px;
+padding-top: 15px;
+}
+
+.backgr-map {
+    /* Map */
+height: 817px;
+background: #F0F7FC;
+margin-top: 130px;
+}
+
+.head-map {
+    /* Карта оказания услуг */
+
+width: 407px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+color: #2D2B2D;
+padding-top: 130px;
+}
+
+.text-map {
+    /* Компания 5С-Проект оказывает услуги по всей России: от Камчатского края  до Мурманской области */
+width: 407px;
+height: 72px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #2D2B2D;
+padding-top: 38px;
+}
+
+.button-map {
+
+width: 203px;
+height: 60px;
+background: #2D2B2D;
+border-radius: 2px;
+margin-top: 36px;
+transition: all 0.4s ease-in;
+z-index: 10;
+}
+
+.button-map:hover {
+    background-color: #2568A8;
+}
+
+.button-map div {
+    /* Оставить заявку */
+
+width: 170px;
+height: 22px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #F0F7FC;
+box-sizing: border-box;
+padding-left: 40px;
+padding-top: 17px;
+}
+
+.map {
+    /* Map */
+
+width: 1303px;
+height: 744.59px;
+margin-top: -320px;
+padding-left: 100px;
+z-index: 1;
+}
+
+.container-udost {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.udost {
+    /* Удостоверения и сертификаты */
+
+width: 300px;
+height: 96px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+color: #2D2B2D;
+padding-top: 83px;
+}
+
+.arrow-right6 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-left: 10px;
+  margin-top: 130px;
+}
+
+.arrow-right6::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-right-radius: 2px; 
+  border-bottom-right-radius: 2px;
+}
+
+.arrow-right6::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-right: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(45deg); 
+}
+
+.arrow-left7 {
+  position: relative;
+  display: inline-block;
+  width: 47px;        
+  height: 10px;
+  margin-top: 40px;
+  margin-left: 160px;
+}
+
+.arrow-left7::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;          
+  height: 2px;           
+  background-color: #A5A8B0; 
+  border-top-left-radius: 2px; 
+  border-bottom-left-radius: 2px;
+  transition: background-color 0.3s;
+}
+
+.arrow-left7::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 10px;         
+  height: 10px;
+  border-top: 2px solid #A5A8B0;  
+  border-left: 2px solid #A5A8B0;
+  transform: translateY(-50%) rotate(-45deg); 
+  transition: background-color 0.3s;
+}
+
+.imgs-udost {
+    padding-left: 80px;
+    padding-top: 80px;
+    display: flex;
+}
+
+.imgs-udost img {
+    padding: 15px;
+}
+
+.backgr5 {
+    /* Rectangle 4 */
+
+height: 514px;
+background: #3E8BC5;
+margin-top: 90px;
+
+}
+
+.img-form {
+    /* kisspng-building-architectural-drawing-architecture-sketch-hand-painted-city-building-5aa3a19269e656 1 */
+
+width: 1173px;
+height: 514px;
+margin-left: -50px;
+}
+
+.head-form {
+    /* Мы готовы  к сотрудничеству */
+
+width: 422px;
+height: 120px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 60px;
+color: #FFFFFF;
+margin-left: -720px;
+margin-top: 100px;
+}
+
+.container-form {
+    display: flex;
+}
+
+.backgr5 {
+    display: flex;
+}
+
+.text-form {
+    /* Оставьте заявку на сайте, наши менеджеры свяжутся с вами и проконсультируют по всем интересующим вопросам */
+
+width: 520px;
+height: 52px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+margin-left: -720px;
+padding-top: 29px;
+}
+
+.container-input {
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.org {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+}
+
+.org::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.fio {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+    padding-top: 25px;
+}
+
+.fio::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.number {
+    /* Телефон */
+
+width: 59px;
+height: 20px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #B2D1E8;
+padding-left: 15px;
+padding-top: 10px;
+}
+
+.tel-form {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+    padding-top: -10px;
+}
+
+.tel-form::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.email-form {
+    border: 0;                
+    outline: 0;               
+    background: transparent;  
+    border-bottom: 1px solid #FFFFFF; 
+    padding: 5px; 
+    width: 386px;
+    padding-top: 30px;
+}
+
+.email-form::placeholder {
+    /* Наименование организации */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding-left: 10px;
+}
+
+.button-form {
+    /* Rectangle 14 */
+width: 210px;
+height: 60px;
+background: #FFFFFF;
+border-radius: 2px;
+border: none;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+margin-top: 40px;
+transition: all 0.4s ease-in;
+}
+
+.button-form:hover {
+    background-color: #2568A8;
+    color: #FFFFFF;
+}
+
+.text-obr {
+    /* Нажимая кнопку, вы соглашаетесь на обработку персональных данных */
+width: 157px;
+height: 48px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #B2D1E8;
+padding-top: 45px;
+padding-left: 20px
+
+}
+
+.text-obr a {
+    color: #B2D1E8;
+    text-decoration: underline;
+}
+
+.container-button {
+    display: flex;
+}
+
+.container-foot {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-foot {
+    /* ЂЃ£Ѓ 1 */
+
+width: 148px;
+height: 53px;
+padding-top: 69px;
+}
+
+.links-foot {
+    padding-top: 60px;
+}
+
+.o_comp-foot {
+    /* О компании */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+
+}
+
+.o_comp-foot:hover {
+    color: #3E8BC5;
+}
+
+.usl-foot {
+    /* Услуги */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.usl-foot:hover {
+    color: #3E8BC5;
+}
+
+.contacts-foot {
+    /* Контакты */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.contacts-foot:hover {
+    color: #3E8BC5;
+}
+
+.vacancy-foot {
+    /* Вакансии */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.address-foot {
+    padding-top: 60px;
+}
+
+.head-add {
+    /* Адрес */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+
+}
+
+.text-add {
+    /* 160000, г. Вологда,  Пречистенская наб.,  д. 72, оф. 1Н */
+    width: 160px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #2D2B2D;
+
+}
+
+.head-oper {
+    /* Режим работы */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.text-oper {
+    width: 120px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #2D2B2D;
+
+}
+
+.contacts-foot2 {
+    padding-top: 60px;
+}
+
+.number1-foot {
+    /* 8 (8172) 50-35-32 */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+color: #2568A8;
+
+}
+
+.number2-foot {
+    /* +7 (911) 501-35-32 */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 28px;
+color: #2568A8;
+padding-top: 20px;
+}
+
+.email-foot {
+    
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #2D2B2D;
+text-decoration: underline;
+padding-top: 20px;
+}
+
+.icons-foot {
+    padding-left: 250px;
+    margin-top: -65px;
+}
+
+.hr-foot {
+    /* Line 7 */
+border: 1px solid #CBE6FB;
+margin-top: 70px;
+}
+
+.container-foot2 {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.text-foot2 {
+    display: flex;
+}
+
+.copyr {
+    /* © 2020 ООО «5С-Проект» */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2B8CD;
+
+}
+
+.confid {
+    /* Политика конфиденциальности */
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2B8CD;
+text-decoration: underline;
+padding-left: 28px;
+}
+
+.sdel {
+    /* Сделано в */
+width: 78px;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2B8CD;
+margin-right: 5px;
+}
+
+.logo2 {
+    display: flex;
+}
+
+.logo2 img {
+    padding: 1px;
+}
+
+.logo2-img {
+    /* surface1 */
+    width: 16.37px;
+    height: 21px;
+}
+
+.p {
+    width: 6.28px;
+    height: 9.9px;
+    margin-top: 5px;
+}
+
+.l {
+    width: 5.77px;
+    height: 9.86px;
+    margin-top: 5px;
+}
+
+.a {
+    width: 7.62px;
+    height: 9.84px;
+    margin-top: 5px;
+}
+
+.c {
+    width: 7.8px;
+    height: 10.31px;
+    margin-top: 5px;
+}
+
+.e {
+    width: 6.13px;
+    height: 9.85px;
+    margin-top: 5px;
+}
+
+.s {
+    width: 6.34px;
+    height: 10.2px;
+    margin-top: 5px;
+}
+
+.t {
+    width: 7.52px;
+    height: 9.86px;
+    margin-top: 5px;
+}
+
+.a2 {
+    width: 7.62px;
+    height: 9.84px;
+    margin-top: 5px;
+}
+
+.r {
+    width: 6.27px;
+    height: 9.87px;
+    margin-top: 5px;
+}
+
+.t2 {
+    width: 7.53px;
+    height: 9.86px;
+    margin-top: 5px;
+}
 }
