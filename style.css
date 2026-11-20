@@ -1043,7 +1043,7 @@ padding-top: 10px;
   display: inline-block;
   width: 47px;        
   height: 10px;
-  margin-top: 30px;
+  margin-top: 110px;
   margin-left: 30px;
 }
 
@@ -1077,7 +1077,7 @@ padding-top: 10px;
 
 width: 80px;
 height: 80px;
-padding-left: 358px;
+padding-left: 150px;
 }
 
 .head-dogov {
@@ -1116,7 +1116,7 @@ padding-top: 10px;
   display: inline-block;
   width: 47px;        
   height: 10px;
-  margin-top: 30px;
+  margin-top: 110px;
   margin-left: 30px;
 }
 
@@ -1153,7 +1153,7 @@ a {
     /* file (1) */
 width: 80px;
 height: 80px;
-padding-left: 357px;
+padding-left: 210px;
 }
 
 .head-info {
@@ -1185,15 +1185,6 @@ text-align: center;
 color: #2D2B2D;
 padding-left: 80px;
 padding-top: 15px;
-}
-
-.imgs-stage-down {
-    padding-top: 50px;
-    display: flex;
-}
-
-.stage-down {
-    display: flex;
 }
 
 .img-develop {
@@ -1240,8 +1231,8 @@ padding-top: 15px;
   display: inline-block;
   width: 47px;        
   height: 10px;
-  margin-top: 40px;
-  margin-left: 30px;
+  margin-top: 110px;
+  margin-left: 60px;
 }
 
 .arrow-right5::before {
@@ -1274,7 +1265,7 @@ padding-top: 15px;
 
 width: 80px;
 height: 80px;
-padding-left: 360px;
+padding-left: 210px;
 
 }
 
@@ -1307,6 +1298,10 @@ text-align: center;
 color: #2D2B2D;
 padding-left: 80px;
 padding-top: 15px;
+}
+
+.imgs-stage-down {
+    display: flex;
 }
 
 .backgr-map {
@@ -2161,6 +2156,14 @@ color: #2568A8;
     display: none;
 }
 
+.hr-down {
+    display: none;
+}
+
+.hr-down2 {
+    display: none;
+}
+
 @media screen and (max-width: 320px) {
 
 body {
@@ -2281,8 +2284,8 @@ display: none;
 .backgr-glav {
     /* Rectangle 460 */
 width: 975px;
-min-height: 583px;
 background: #3E8BC5;
+padding-bottom: 40px;
 }
 
 .development {
@@ -2366,7 +2369,8 @@ color: #2568A8;
     display: block;
     overflow-x: hidden;
     width: 320px;
-    min-height: 583px;
+    min-height: auto;
+    height: auto;
 }
 
 .content-backgr-glav {
@@ -2448,23 +2452,29 @@ color: #2568A8;
     /* Rectangle 49 */
     height: auto;
 background: #F0F7FC;
-margin-top: 80px;
+width: 320px;
 }
 
 .container-backgr2 {
-    width: 320px;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
 }
 
 .content-left {
     margin: 0;
-    width: 770px;
+    width: 320px;
+    display: contents;
 }
 
 .content-right {
-    width: 520px;
+    width: 320px;
     margin: 0;
+    order: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .advan {
@@ -2475,7 +2485,7 @@ display: none;
 
 .priority {
     /* Приоритеты компании */
-
+order: 1;
 width: 205px;
 height: 26px;
 font-family: 'Ubuntu';
@@ -2484,39 +2494,42 @@ font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 color: #2D2B2D;
-
+padding-top: 43px;
+padding-left: 10px;
+margin-top: 0;
 }
 
 .list-priority {
     /* Регулярное взаимодействие с клиентом на всех этапах –  Ваш персональный менеджер всегда готов ответить на Ваши вопросы  и помочь Строгое соблюдение сроков проектирования Разработка качественной проектной документации, соответствующей всемтребованиям законодательства РФ Постоянное отслеживание нормативной базы, чем гарантируем актуальность наших работ Беремся за работу в разных регионах страны Заботимся о том, чтобы наши клиенты были довольны результатом нашей работы */
-
-width: 630px;
-height: 339px;
+order: 3;
+width: 270px;
+height: 356px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+font-size: 13px;
+line-height: 18px;
 color: #2D2B2D;
-
+margin-top: -20px;
 }
 
 .list-priority li {
-    padding: 8px;
+    padding: 3px;
 }
 
 .seven {
     /* 7лет */
+    order: 1;
 width: 544px;
 height: 100px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 100px;
+font-size: 40px;
 line-height: 100px;
 color: #2568A8;
-margin-top: 90px;
-margin-left: 30px;
+margin-top: 0px;
+margin-left: 10px;
 display: flex;
 }
 
@@ -2524,10 +2537,10 @@ display: flex;
     font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 50px;
+font-size: 20px;
 line-height: 100px;
 color: #2568A8;
-padding-top: 20px;
+padding-top: 8px;
 padding-left: 0;
 }
 
@@ -2537,132 +2550,135 @@ width: 169px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
-line-height: 26px;
+font-size: 12px;
 /* or 137% */
 /* Style */
 color: #2D2B2D;
-padding-left: 40px;
-padding-top: 67px;
+padding-left: 20px;
+padding-top: 25px;
 }
 
 .nin-zero {
     /* 803 */
+    order: 3;
 width: 544px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 100px;
+font-size: 40px;
 line-height: 100px;
 /* identical to box height, or 100% */
 color: #2568A8;
-margin-left: 30px;
-margin-top: 40px;
+margin-left: 10px;
+margin-top: -40px;
 display: flex;
 }
 
 .project {
     /* проекта успешно  выполнены */
 
-width: 165.8px;
+width: 130px;
 height: 52px;
-right: 413px;
-top: 922px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
+font-size: 12px;
 line-height: 26px;
 color: #2D2B2D;
-padding-top: 60px;
+padding-top: 20px;
 padding-left: 10px;
 }
 
 .fo {
     /* 442 */
-
-width: 554.48px;
-height: 100px;
-right: 596.52px;
-top: 1004px;
+order: 2;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 100px;
+font-size: 40px;
 line-height: 100px;
 color: #2568A8;
 display: flex;
-margin-left: 30px;
-margin-top: 50px;
+margin-left: 10px;
+margin-top: -30px;
 }
 
 .clients {
     /* клиента остались  довольны */
 
-width: 168.47px;
-height: 52px;
-right: 413px;
-top: 1068px;
+width: 130px;
+height: 32px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
+font-size: 12px;
 line-height: 26px;
 /* or 137% */
 /* Style */
 color: #2D2B2D;
-padding-top: 67px;
+padding-top: 20px;
 padding-left: 10px;
 }
 
 .container-company-usl {
-    width: 1290px;
+    width: 320px;
   margin: 0 auto;
   display: flex;
   flex-direction: column; 
+  gap: 5px;
+  padding-bottom: 38px;
 }
 
 .company-usl {
     /* Компания оказывает услуги в следующих сферах */
 
-width: 534px;
-height: 96px;
-right: 1071px;
-top: 1354px;
+width: 253px;
+height: 44px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 38px;
-line-height: 48px;
+font-size: 18px;
+line-height: 22px;
 /* or 126% */
 /* Style */
 color: #2D2B2D;
-margin-top: 81px;
+margin-top: 34px;
+margin-left: 10px;
+padding-bottom: 30px;
 }
 
 .backgr3 {
     /* kisspng-building-architectural-drawing-architecture-sketch-hand-painted-city-building-5aa3a19269e656 1 */
-width: 1067px;
-height: 610px;
-margin-left: -310px;
-margin-top: -330px;
-z-index: -10;
+display: none;
 }
 
 .btn-up {
-    display: flex;
+    display: contents;
+}
+
+.btn-down {
+    display: contents;
+}
+
+.btn-up a {
+    display: contents;
+}
+
+.btn-down a {
+    display: contents;
 }
 
 .button-shkh {
         /* Mask Group */
 /* Rectangle 462 */
-width: 520px;
-height: 220px;
+order: 1;
+width: 320px;
+height: 100px;
 background: rgba(10, 72, 119, 0.8);
 border-radius: 2px;
 cursor: pointer;
-margin-top: 30px;
-margin-left: 100px;
+margin-top: 0;
+margin-left: 0px;
 transition: all 0.4s ease-in;
 }
 
@@ -2671,25 +2687,26 @@ transition: all 0.4s ease-in;
 }
 
 .button-shkh div {
-    padding-left: 60px;
-    padding-top: 30px;
+    padding-left: 40px;
+    padding-top: 25px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 34px;
+font-size: 16px;
 line-height: 36px;
 color: #FFFFFF;
 
 }
 
 .button-dor-hoz {
-    width: 520px;
-height: 220px;
+    order: 3;
+    width: 320px;
+height: 100px;
 background: rgba(10, 72, 119, 0.8);
 border-radius: 2px;
 cursor: pointer;
-margin-top: 30px;
-margin-left: 20px;
+margin-top: 0;
+margin-left: 0px;
 transition: all 0.4s ease-in;
 }
 
@@ -2699,31 +2716,28 @@ transition: all 0.4s ease-in;
 
 .button-dor-hoz div {
     /* Дорожное хозяйство */
-padding-left: 30px;
-    padding-top: 30px;
-width: 360px;
+padding-left: 40px;
+    padding-top: 25px;
+width: 320px;
 height: 36px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 34px;
-line-height: 36px;
+font-size: 16px;
+line-height: 20px;
 color: #FFFFFF;
 
 }
 
-.btn-down {
-    display: flex;
-}
-
 .button-arh {
-    width: 520px;
-height: 220px;
+    order: 2;
+    width: 320px;
+height: 100px;
 background: rgba(10, 72, 119, 0.8);
 border-radius: 2px;
 cursor: pointer;
-margin-top: 30px;
-margin-left: 100px;
+margin-top: 0;
+margin-left: 0px;
 transition: all 0.4s ease-in;
 }
 
@@ -2734,27 +2748,28 @@ transition: all 0.4s ease-in;
 .button-arh div {
     /* Архитектура */
 
-width: 239px;
-height: 45.86px;
+width: auto;
+height: auto;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 34px;
-line-height: 36px;
+font-size: 16px;
+line-height: 20px;
 /* or 106% */
 color: #FFFFFF;
-padding-left: 60px;
-padding-top: 30px;
+padding-left: 40px;
+padding-top: 25px;
 }
 
 .button-programm {
-    width: 520px;
-height: 220px;
+    order: 4;
+    width: 320px;
+height: 100px;
 background: rgba(10, 72, 119, 0.8);
 border-radius: 2px;
 cursor: pointer;
-margin-top: 30px;
-margin-left: 20px;
+margin-top: 0;
+margin-left: 0px;
 transition: all 0.4s ease-in;
 }
 
@@ -2765,40 +2780,30 @@ transition: all 0.4s ease-in;
 .button-programm div {
     /* Программы */
 
-width: 201px;
-height: 36px;
+width: auto;
+height: auto;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 34px;
-line-height: 36px;
+font-size: 16px;
+line-height: 20px;
 /* identical to box height, or 106% */
 color: #FFFFFF;
-padding-left: 30px;
-padding-top: 30px;
+padding-top: 25px;
+padding-left: 40px;
 }
 
 .backgr4 {
     /* Rectangle 49 */
-height: 622px;
-right: 0px;
-top: 2100px;
+height: auto;
+min-height: 420px;
 background: #F0F7FC;
-
+width: auto;
 }
 
 .history {
     /* История */
-
-width: 399px;
-height: 127px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 95px;
-line-height: 127px;
-color: rgba(215, 232, 244, 0.7);
-margin-left: 40px;
+display: none;
 }
 
 .rost-comp {
@@ -2808,155 +2813,64 @@ height: 48px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 38px;
-line-height: 48px;
+font-size: 18px;
+line-height: 22px;
 /* identical to box height, or 126% */
 /* Style */
 color: #2D2B2D;
-margin-top: -50px;
+margin-top: 0px;
+padding-top: 42px;
+padding-left: 10px;
 }
 
 .hr-rost-comp {
     /* Rectangle 46 */
-height: 90px;
+height: 54px;
 background: #3E8BC5;
 display: flex;
-margin-top: 51px;
+margin-top: 0px;
 }
 
 .two-zero {
     /* 2020 */
 width: 141px;
 height: 72px;
-font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 62px;
-line-height: 72px;
+font-size: 24px;
+line-height: 32px;
 color: #FFFFFF;
-padding-left: 290px;
-padding-top: 5px;
+padding-left: 10px;
+padding-top: 10px;
 }
 
 .nine-zero {
     /* 2019 */
-
-width: 141px;
-height: 48px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 62px;
-line-height: 48px;
-/* identical to box height, or 77% */
-color: transparent;
--webkit-text-stroke: 1px #FFFFFF;
-  paint-order: stroke fill;
-padding-left: 505px;
-padding-top: 15px;
+display: none;
 }
 
 .arrow-right2 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-top: 40px;
-  margin-left: 750px;
+ display: none;
 }
 
-.arrow-right2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-right-radius: 2px; 
-  border-bottom-right-radius: 2px;
-}
-
-.arrow-right2::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-right: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(45deg); 
-}
-
-.arrow-right2:hover::before {
-    background-color: #FFFFFF;
-}
-
-.arrow-right2:hover::after  {
-    border-top: 2px solid #FFFFFF;
-    border-right: 2px solid#FFFFFF;
-}
 
 .arrow-left2 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-top: 40px;
-  margin-left: -110px;
-}
-
-.arrow-left2::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-left-radius: 2px; 
-  border-bottom-left-radius: 2px;
-  transition: background-color 0.3s;
-}
-
-.arrow-left2::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-left: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(-45deg); 
-  transition: background-color 0.3s;
-}
-
-.arrow-left2:hover::before {
-    background-color: #FFFFFF;
-}
-
-.arrow-left2:hover::after  {
-    border-top: 2px solid #FFFFFF;
-    border-left: 2px solid#FFFFFF;
+  display: none;
 }
 
 .text-two-zero {
     /* Медийная реклама, согласно Ф.Котлеру, верифицирует клиентский спрос. Эмпирическая история искусств, с другой стороны, вступает эксикатор, отвоевывая свою долю рынка. Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится с концепцией Истона. */
 
-width: 520px;
-height: 236px;
+width: 280px;
+height: 226px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 28px;
+font-size: 13px;
+line-height: 18px;
 color: #2D2B2D;
-padding-left: 320px;
-padding-top: 30px;
+padding-left: 10px;
+padding-top: 10px;
 }
 
 .text-backgr4 {
@@ -2965,17 +2879,31 @@ padding-top: 30px;
 
 .text-nine-zero {
     /* Инвариант, не меняя концепции, изложенной выше, продолжает континентально-европейский тип политической культуры. Медийная реклама доказывает симметричный 238 изотоп урана, впрочем, это несколько расходится с концепцией Истона. */
+display: none;
+}
 
-width: 520px;
-height: 180px;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px; 
-color: #6E6A70;
-padding-left: 115px;
-padding-top: 30px;
+
+.hr-down {
+    display: block;
+    /* Line 115 */
+width: 270px;
+height: 0px;
+border: 3px solid #71B3E4;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 15px;
+}
+
+.hr-down div {
+    /* Line 116 */
+
+width: 101px;
+height: 0px;
+border: 3px solid #0F4272;
+padding: 0px;
+margin-top: -3px;
+margin-left: -5px;
+cursor: pointer;
 }
 
 .stages {
@@ -2986,18 +2914,36 @@ height: 48px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 38px;
-line-height: 48px;
+font-size: 18px;
+line-height: 22px;
 color: #2D2B2D;
-padding-top: 109px;
+padding-top: 42px;
+padding-left: 10px;
 }
 
 .imgs-stage-up {
     display: flex;
+    flex-direction: column;
 }
 
 .stage-up {
-    display: flex;
+    display: grid;
+        grid-template-columns: 64px 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-left: 10px;
+}
+
+.stage-down {
+    display: grid;
+        grid-template-columns: 64px 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-left: 10px;
 }
 
 .img-consult {
@@ -3005,7 +2951,7 @@ padding-top: 109px;
 
 width: 80px;
 height: 80px;
-padding-left: 188px;
+padding-left: 0px;
 }
 
 .head-consult{
@@ -3021,56 +2967,26 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 100px;
+padding-left: 0px;
 }
 
 .text-consult {
     /* Наш специалист подскажет выбор необходимого проекта, какой проект актуален для Вас на сегодняшний день */
-width: 340px;
-height: 66px;
+width: auto;
+height: auto;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 22px;
+line-height: 20px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 60px;
+padding-left: 0px;
 padding-top: 10px;
 }
 
 .arrow-right3 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.arrow-right3::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-right-radius: 2px; 
-  border-bottom-right-radius: 2px;
-}
-
-.arrow-right3::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-right: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(45deg); 
+  display: none;
 }
 
 .img-dogov {
@@ -3078,7 +2994,7 @@ padding-top: 10px;
 
 width: 80px;
 height: 80px;
-padding-left: 358px;
+padding-left: 0px;
 }
 
 .head-dogov {
@@ -3093,7 +3009,7 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 60px;
+padding-left: 0px;
 }
 
 .text-dogov {
@@ -3108,53 +3024,19 @@ font-size: 16px;
 line-height: 22px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 60px;
+padding-left: 0px;
 padding-top: 10px;
 }
 
 .arrow-right4 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.arrow-right4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-right-radius: 2px; 
-  border-bottom-right-radius: 2px;
-}
-
-.arrow-right4::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-right: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(45deg); 
-}
-
-a {
-    text-decoration: none;
+  display: none;
 }
 
 .img-info {
     /* file (1) */
 width: 80px;
 height: 80px;
-padding-left: 357px;
+padding-left: 0px;
 }
 
 .head-info {
@@ -3169,7 +3051,7 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 120px;
+padding-left: 0px;
 }
 
 .text-info {
@@ -3184,17 +3066,14 @@ font-size: 16px;
 line-height: 22px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 80px;
+padding-left: 0px;
 padding-top: 15px;
 }
 
 .imgs-stage-down {
-    padding-top: 50px;
+    padding-top: 0px;
     display: flex;
-}
-
-.stage-down {
-    display: flex;
+    flex-direction: column;
 }
 
 .img-develop {
@@ -3202,14 +3081,14 @@ padding-top: 15px;
 
 width: 80px;
 height: 80px;
-padding-left: 420px;
+padding-left: 0px;
 }
 
 .head-develop {
     /* Разработка и согласование проекта */
 
-width: 220px;
-height: 48px;
+width: auto;
+height: auto;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
@@ -3217,7 +3096,7 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 350px;
+padding-left: 0px;
 }
 
 .text-develop {
@@ -3232,42 +3111,12 @@ font-size: 16px;
 line-height: 22px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 330px;
+padding-left: 0px;
 padding-top: 15px;
 }
 
 .arrow-right5 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-top: 40px;
-  margin-left: 30px;
-}
-
-.arrow-right5::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-right-radius: 2px; 
-  border-bottom-right-radius: 2px;
-}
-
-.arrow-right5::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-right: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(45deg); 
+  display: none;
 }
 
 .img-act {
@@ -3275,7 +3124,7 @@ padding-top: 15px;
 
 width: 80px;
 height: 80px;
-padding-left: 360px;
+padding-left: 0px;
 
 }
 
@@ -3291,7 +3140,7 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 150px;
+padding-left: 0px;
 }
 
 .text-act {
@@ -3306,15 +3155,62 @@ font-size: 16px;
 line-height: 22px;
 text-align: center;
 color: #2D2B2D;
-padding-left: 80px;
+padding-left: 0px;
 padding-top: 15px;
+}
+
+.imgs-stage-up,
+.imgs-stage-down {
+    display: flex;
+    flex-direction: column;
+}
+
+.stage {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.stage [class^="img-"] {
+    grid-column: 1;
+    grid-row: 1 / span 2;  
+    width: 64px;
+    height: 64px;
+    padding-left: 0;
+}
+
+.stage [class^="head-"] {
+    grid-column: 2;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding-left: 0;
+}
+
+.stage [class^="text-"] {
+    grid-column: 2;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.arrow-right3,
+.arrow-right4,
+.arrow-right5 {
+    display: none;
 }
 
 .backgr-map {
     /* Map */
-height: 817px;
+height: auto;
+min-height: 416px;
 background: #F0F7FC;
-margin-top: 130px;
+margin-top: 0px;
 }
 
 .head-map {
@@ -3325,32 +3221,35 @@ height: 48px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 38px;
-line-height: 48px;
+font-size: 18px;
+line-height: 22px;
 color: #2D2B2D;
-padding-top: 130px;
+padding-top: 43px;
+padding-left: 10px;
 }
 
 .text-map {
     /* Компания 5С-Проект оказывает услуги по всей России: от Камчатского края  до Мурманской области */
-width: 407px;
-height: 72px;
+width: auto;
+height: auto;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 24px;
+font-size: 13px;
+line-height: 18px;
 color: #2D2B2D;
-padding-top: 38px;
+padding-top: 0px;
+padding-left: 10px;
 }
 
 .button-map {
 
-width: 203px;
-height: 60px;
+width: 279px;
+height: 48px;
 background: #2D2B2D;
 border-radius: 2px;
 margin-top: 36px;
+margin-left: 10px;
 transition: all 0.4s ease-in;
 z-index: 10;
 }
@@ -3362,7 +3261,7 @@ z-index: 10;
 .button-map div {
     /* Оставить заявку */
 
-width: 170px;
+width: 220px;
 height: 22px;
 font-family: 'Ubuntu';
 font-style: normal;
@@ -3371,178 +3270,142 @@ font-size: 16px;
 line-height: 22px;
 color: #F0F7FC;
 box-sizing: border-box;
-padding-left: 40px;
-padding-top: 17px;
+padding-left: 70px;
+padding-top: 15px;
 }
 
 .map {
     /* Map */
 
-width: 1303px;
-height: 744.59px;
-margin-top: -320px;
-padding-left: 100px;
+width: 280px;
+height: 160px;
+margin-top: 20px;
+padding-left: 0px;
 z-index: 1;
 }
 
 .container-udost {
-    width: 1290px;
+    width: 320px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    margin-bottom: 38px;
 }
 
 .udost {
     /* Удостоверения и сертификаты */
 
-width: 300px;
-height: 96px;
-font-family: 'Ubuntu';
+width: 139px;
+height: 44px;
 font-style: normal;
 font-weight: 700;
-font-size: 38px;
-line-height: 48px;
+font-size: 18px;
+line-height: 22px;
 color: #2D2B2D;
-padding-top: 83px;
+padding-top: 38px;
+padding-left: 10px;
 }
 
 .arrow-right6 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-left: 10px;
-  margin-top: 130px;
-}
-
-.arrow-right6::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-right-radius: 2px; 
-  border-bottom-right-radius: 2px;
-}
-
-.arrow-right6::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-right: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(45deg); 
+  display: none;
 }
 
 .arrow-left7 {
-  position: relative;
-  display: inline-block;
-  width: 47px;        
-  height: 10px;
-  margin-top: 40px;
-  margin-left: 160px;
-}
-
-.arrow-left7::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;          
-  height: 2px;           
-  background-color: #A5A8B0; 
-  border-top-left-radius: 2px; 
-  border-bottom-left-radius: 2px;
-  transition: background-color 0.3s;
-}
-
-.arrow-left7::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 10px;         
-  height: 10px;
-  border-top: 2px solid #A5A8B0;  
-  border-left: 2px solid #A5A8B0;
-  transform: translateY(-50%) rotate(-45deg); 
-  transition: background-color 0.3s;
+  display: none;
 }
 
 .imgs-udost {
-    padding-left: 80px;
-    padding-top: 80px;
+    padding-left: 71px;
+    padding-top: 30px;
     display: flex;
 }
 
 .imgs-udost img {
-    padding: 15px;
+    padding: 0px;
+    width: 178px;
+}
+
+.udost2, .udost3 {
+    display: none;
+}
+
+.hr-down2 {
+    display: block;
+margin-top: 20px;
+width: 280px;
+height: 0px;
+border: 3px solid #71B3E4;
+}
+
+.hr-down2 div {
+    /* Line 116 */
+
+width: 101px;
+height: 0px;
+border: 3px solid #0F4272;
+margin-top: -3px;
+margin-left: -5px;
 }
 
 .backgr5 {
     /* Rectangle 4 */
 
-height: 514px;
+height: auto;
 background: #3E8BC5;
-margin-top: 90px;
+margin-top: 0px;
 
 }
 
 .img-form {
     /* kisspng-building-architectural-drawing-architecture-sketch-hand-painted-city-building-5aa3a19269e656 1 */
-
-width: 1173px;
-height: 514px;
-margin-left: -50px;
+display: none;
 }
 
 .head-form {
     /* Мы готовы  к сотрудничеству */
 
-width: 422px;
-height: 120px;
+width: 203px;
+height: 56px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 500;
-font-size: 50px;
-line-height: 60px;
+font-size: 24px;
+line-height: 28px;
 color: #FFFFFF;
-margin-left: -720px;
-margin-top: 100px;
+margin-left: 10px;
+margin-top: 39px;
 }
 
 .container-form {
     display: flex;
+    flex-direction: column;
 }
 
 .backgr5 {
     display: flex;
+    flex-direction: column;
 }
 
 .text-form {
     /* Оставьте заявку на сайте, наши менеджеры свяжутся с вами и проконсультируют по всем интересующим вопросам */
 
-width: 520px;
-height: 52px;
+width: 285px;
+height: 72px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 26px;
+font-size: 15px;
+line-height: 18px;
 color: #FFFFFF;
-margin-left: -720px;
-padding-top: 29px;
+margin-left: 10px;
+padding-top: 20px;
 }
 
 .container-input {
-    margin-left: 50px;
-    margin-top: 200px;
+    margin-left: 10px;
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
 }
 
 .org {
@@ -3551,7 +3414,7 @@ padding-top: 29px;
     background: transparent;  
     border-bottom: 1px solid #FFFFFF; 
     padding: 5px; 
-    width: 386px;
+    width: 280px;
 }
 
 .org::placeholder {
@@ -3572,7 +3435,7 @@ padding-left: 10px;
     background: transparent;  
     border-bottom: 1px solid #FFFFFF; 
     padding: 5px; 
-    width: 386px;
+    width: 280px;
     padding-top: 25px;
 }
 
@@ -3609,7 +3472,7 @@ padding-top: 10px;
     background: transparent;  
     border-bottom: 1px solid #FFFFFF; 
     padding: 5px; 
-    width: 386px;
+    width: 280px;
     padding-top: -10px;
 }
 
@@ -3631,7 +3494,7 @@ padding-left: 10px;
     background: transparent;  
     border-bottom: 1px solid #FFFFFF; 
     padding: 5px; 
-    width: 386px;
+    width: 280px;
     padding-top: 30px;
 }
 
@@ -3649,9 +3512,9 @@ padding-left: 10px;
 
 .button-form {
     /* Rectangle 14 */
-width: 210px;
-height: 60px;
-background: #FFFFFF;
+width: 280px;
+height: 48px;
+background: #000000;
 border-radius: 2px;
 border: none;
 font-family: 'Ubuntu';
@@ -3659,8 +3522,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 22px;
-color: #2568A8;
-margin-top: 40px;
+color: #ffffff;
+margin-top: 20px;
 transition: all 0.4s ease-in;
 }
 
@@ -3671,17 +3534,17 @@ transition: all 0.4s ease-in;
 
 .text-obr {
     /* Нажимая кнопку, вы соглашаетесь на обработку персональных данных */
-width: 157px;
-height: 48px;
+width: 230px;
+height: 36px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
-line-height: 16px;
+font-size: 13px;
+line-height: 18px;
 color: #B2D1E8;
-padding-top: 45px;
-padding-left: 20px
-
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 38px;
 }
 
 .text-obr a {
@@ -3691,6 +3554,7 @@ padding-left: 20px
 
 .container-button {
     display: flex;
+    flex-direction: column;
 }
 
 .container-foot {
