@@ -92,14 +92,23 @@ padding: 20px;
 }
 
 .button-header2 {
-    padding: 20px;
+    padding: 18px 20px;
     border: 2px solid #2568A8;
     text-decoration: none;
 }
 
 .button-header2 div {
-    font-weight: 600px;
+    font-weight: 600;
     color: #2568A8;
+    text-align: center;
+}
+
+.button-header2:hover {
+    background-color: #2568A8;
+}
+
+.button-header2:hover div {
+    color: #FFFFFF;
 }
 
 .dropdown-container {
@@ -3558,10 +3567,10 @@ padding-bottom: 38px;
 }
 
 .container-foot {
-    width: 1290px;
+    width: 320px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .logo-foot {
@@ -3573,7 +3582,9 @@ padding-top: 69px;
 }
 
 .links-foot {
-    padding-top: 60px;
+    padding-top: 25px;
+    order: 3;
+    padding-left: 10px;
 }
 
 .o_comp-foot {
@@ -3582,8 +3593,8 @@ padding-top: 69px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 24px;
+font-size: 14px;
+line-height: 20px;
 color: #2568A8;
 
 }
@@ -3598,10 +3609,10 @@ color: #2568A8;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 24px;
+font-size: 14px;
+line-height: 20px;
 color: #2568A8;
-padding-top: 20px;
+padding-top: 10px;
 }
 
 .usl-foot:hover {
@@ -3614,10 +3625,10 @@ padding-top: 20px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 24px;
+font-size: 14px;
+line-height: 20px;
 color: #2568A8;
-padding-top: 20px;
+padding-top: 10px;
 }
 
 .contacts-foot:hover {
@@ -3630,36 +3641,36 @@ padding-top: 20px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
-line-height: 24px;
+font-size: 14px;
+line-height: 20px;
 color: #2568A8;
-padding-top: 20px;
+padding-top: 10px;
 }
 
 .address-foot {
     padding-top: 60px;
+    order: 2;
+    padding-left: 10px;
 }
 
 .head-add {
     /* Адрес */
 
-font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
-line-height: 22px;
+font-size: 14px;
+line-height: 18px;
 color: #2568A8;
 
 }
 
 .text-add {
     /* 160000, г. Вологда,  Пречистенская наб.,  д. 72, оф. 1Н */
-    width: 160px;
-font-family: 'Ubuntu';
+    width: 250px;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+font-size: 13px;
+line-height: 18px;
 color: #2D2B2D;
 
 }
@@ -3670,25 +3681,30 @@ color: #2D2B2D;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
-line-height: 22px;
+font-size: 14px;
+line-height: 20px;
 color: #2568A8;
 padding-top: 20px;
 }
 
 .text-oper {
-    width: 120px;
+    width: 180px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+font-size: 13px;
+line-height: 18px;
 color: #2D2B2D;
 
 }
 
+.text-oper br {
+    display: none;
+}
+
 .contacts-foot2 {
-    padding-top: 60px;
+    padding-top: 20px;
+    order: 1;
 }
 
 .number1-foot {
@@ -3697,10 +3713,10 @@ color: #2D2B2D;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 28px;
-line-height: 28px;
+font-size: 18px;
+line-height: 22px;
 color: #2568A8;
-
+padding-left: 10px;
 }
 
 .number2-foot {
@@ -3709,10 +3725,11 @@ color: #2568A8;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 700;
-font-size: 28px;
-line-height: 28px;
+font-size: 18px;
+line-height: 22px;
 color: #2568A8;
-padding-top: 20px;
+padding-top: 10px;
+padding-left: 10px;
 }
 
 .email-foot {
@@ -3720,16 +3737,23 @@ padding-top: 20px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 22px;
+font-size: 13px;
+line-height: 18px;
 color: #2D2B2D;
 text-decoration: underline;
-padding-top: 20px;
+padding-top: 10px;
+padding-left: 10px;
 }
 
 .icons-foot {
-    padding-left: 250px;
+    padding-left: 180px;
     margin-top: -65px;
+}
+
+.icons-foot img{
+    width: 24px;
+    height: 24px;
+    padding: 3px;
 }
 
 .hr-foot {
@@ -3739,27 +3763,27 @@ margin-top: 70px;
 }
 
 .container-foot2 {
-    width: 1290px;
+    width: 320px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding-top: 30px;
 }
 
 .text-foot2 {
     display: flex;
+    flex-direction: column;
 }
 
 .copyr {
     /* © 2020 ООО «5С-Проект» */
-
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+font-size: 13px;
+line-height: 18px;
 color: #A2B8CD;
-
+padding-left: 10px;
 }
 
 .confid {
@@ -3768,11 +3792,11 @@ color: #A2B8CD;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+font-size: 13px;
+line-height: 18px;
 color: #A2B8CD;
 text-decoration: underline;
-padding-left: 28px;
+padding-left: 10px;
 }
 
 .sdel {
@@ -3781,10 +3805,11 @@ width: 78px;
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+font-size: 13px;
+line-height: 18px;
 color: #A2B8CD;
-margin-right: 5px;
+margin-right: -8px;
+padding-left: 10px;
 }
 
 .logo2 {
