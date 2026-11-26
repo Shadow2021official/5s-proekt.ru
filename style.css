@@ -1,9 +1,7 @@
 @font-face {
     font-family: 'Ubuntu';
     src: url(./fonts/Ubuntu-Regular.ttf);
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 22px;
+    font-weight: 500;
 }
 
 body {
@@ -91,11 +89,13 @@ padding: 20px;
     padding-left: 20px;
 }
 
+
 .button-header2 {
     padding: 18px 20px;
     border: 2px solid #2568A8;
     text-decoration: none;
 }
+
 
 .button-header2 div {
     font-weight: 600;
@@ -187,9 +187,9 @@ padding: 20px;
 }
 
 .modal-overlay {
-  display: none;              /* скрыто по умолчанию */
-  position: fixed;            /* поверх всего */
-  inset: 0;                   /* растянуть на весь экран */
+  display: none;              
+  position: fixed;            
+  inset: 0;                   
   background: rgba(0, 0, 0, 0.6);
   z-index: 1000;
   align-items: center;
@@ -197,7 +197,7 @@ padding: 20px;
 }
 
 .modal-overlay.active {
-  display: flex;              /* показать */
+  display: flex;              
 }
 
 .modal-content {

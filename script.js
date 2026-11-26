@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+
   function closeMenu() {
     mobileMenu.classList.remove('active');
     burgerBtn.classList.remove('active');
@@ -62,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     subPanel.classList.remove('active');
   }
 
+  
   closeBtns.forEach(btn => {
     if (btn) btn.addEventListener('click', closeMenu);
   });
