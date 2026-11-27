@@ -1007,7 +1007,6 @@ padding-top: 109px;
 }
 
 .img-consult {
-    /* question-mark */
 
 width: 80px;
 height: 80px;
@@ -1080,8 +1079,7 @@ padding-top: 10px;
 }
 
 .img-dogov {
-    /* secure */
-
+    
 width: 80px;
 height: 80px;
 padding-left: 150px;
@@ -2240,7 +2238,7 @@ header {
 }
 
 .o_comp {
-display: none;
+    display: none;
 }
 
 .usl {
