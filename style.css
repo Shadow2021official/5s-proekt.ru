@@ -662,7 +662,7 @@ z-index: -10;
 }
 
 .button-shkh {
-        /* Mask Group */
+
 /* Rectangle 462 */
 width: 520px;
 height: 220px;
@@ -672,6 +672,7 @@ cursor: pointer;
 margin-top: 30px;
 margin-left: 100px;
 transition: all 0.4s ease-in;
+
 }
 
 .button-shkh:hover {
@@ -679,6 +680,7 @@ transition: all 0.4s ease-in;
 }
 
 .button-shkh div {
+
     padding-left: 60px;
     padding-top: 30px;
 font-family: 'Ubuntu';
@@ -780,7 +782,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 34px;
 line-height: 36px;
-/* identical to box height, or 106% */
 color: #FFFFFF;
 padding-left: 30px;
 padding-top: 30px;
@@ -818,8 +819,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 38px;
 line-height: 48px;
-/* identical to box height, or 126% */
-/* Style */
 color: #2D2B2D;
 margin-top: -50px;
 }
@@ -856,7 +855,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 62px;
 line-height: 48px;
-/* identical to box height, or 77% */
 color: transparent;
 -webkit-text-stroke: 1px #FFFFFF;
   paint-order: stroke fill;
